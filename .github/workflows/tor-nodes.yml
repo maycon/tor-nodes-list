@@ -1,0 +1,72 @@
+name: Update Tor Nodes List
+
+on:
+  schedule:
+    # Run every hour
+    - cron: '0 * * * *'
+  workflow_dispatch: # Allow manual execution
+
+permissions:
+  contents: write
+
+jobs:
+  update-tor-nodes:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Download and process Tor nodes
+        run: |
+          # Download data from Onionoo
+          curl -s "https://onionoo.torproject.org/details?search=type:relay%20running:true" -o tor-data.json
+          
+          # Process data and extract exit nodes and guard nodes
+          cat tor-data.json | jq -r '
+            .relays[] | 
+            select(.running == true) |
+            {
+              fingerprint: .fingerprint,
+              nickname: .nickname,
+              address: .or_addresses[0],
+              flags: .flags,
+              country: .country,
+              is_exit: ([.flags[] | select(. == "Exit")] | length > 0),
+              is_guard: ([.flags[] | select(. == "Guard")] | length > 0)
+            }
+          ' > all-nodes.json
+          
+          # Extract exit nodes
+          cat all-nodes.json | jq -s '[.[] | select(.is_exit == true)]' > exit-nodes.json
+          
+          # Extract guard nodes
+          cat all-nodes.json | jq -s '[.[] | select(.is_guard == true)]' > guard-nodes.json
+          
+          # Create plain text versions (IPs only)
+          cat exit-nodes.json | jq -r '.[].address' | cut -d: -f1 | sort -u > exit-nodes.txt
+          cat guard-nodes.json | jq -r '.[].address' | cut -d: -f1 | sort -u > guard-nodes.txt
+          
+          # Generate statistics
+          EXIT_COUNT=$(cat exit-nodes.json | jq 'length')
+          GUARD_COUNT=$(cat guard-nodes.json | jq 'length')
+          TOTAL_COUNT=$(cat all-nodes.json | jq -s 'length')
+          TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
+          
+          # Create statistics file
+          echo "Tor Nodes Statistics" > stats.txt
+          echo "Last Update: $TIMESTAMP" >> stats.txt
+          echo "" >> stats.txt
+          echo "Total Running Relays: $TOTAL_COUNT" >> stats.txt
+          echo "Exit Nodes: $EXIT_COUNT" >> stats.txt
+          echo "Guard Nodes: $GUARD_COUNT" >> stats.txt
+          
+          # Remove temporary files
+          rm tor-data.json all-nodes.json
+      
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add exit-nodes.json guard-nodes.json exit-nodes.txt guard-nodes.txt stats.txt
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update Tor nodes list - $(date -u +"%Y-%m-%d %H:%M UTC")" && git push)
