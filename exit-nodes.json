@@ -1558,6 +1558,7 @@
       "Exit",
       "Fast",
       "Guard",
+      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -5296,6 +5297,7 @@
     "flags": [
       "Exit",
       "Fast",
+      "Guard",
       "Running",
       "Stable",
       "V2Dir",
@@ -5303,7 +5305,7 @@
     ],
     "country": "ro",
     "is_exit": true,
-    "is_guard": false
+    "is_guard": true
   },
   {
     "fingerprint": "1C1548FB83F57C6B8D2A95282E3AC097BB05CEB2",
@@ -10080,7 +10082,6 @@
       "HSDir",
       "Running",
       "Stable",
-      "StaleDesc",
       "V2Dir",
       "Valid"
     ],
@@ -21950,8 +21951,10 @@
       "Exit",
       "Fast",
       "Guard",
+      "HSDir",
       "Running",
       "Stable",
+      "StaleDesc",
       "V2Dir",
       "Valid"
     ],
@@ -22168,6 +22171,7 @@
     "flags": [
       "Exit",
       "Fast",
+      "Guard",
       "Running",
       "Stable",
       "V2Dir",
@@ -22175,7 +22179,7 @@
     ],
     "country": "ro",
     "is_exit": true,
-    "is_guard": false
+    "is_guard": true
   },
   {
     "fingerprint": "776542D611661D6FE3839FE2D7AFB92A435C5D81",
@@ -22816,6 +22820,7 @@
     "flags": [
       "Exit",
       "Fast",
+      "Guard",
       "Running",
       "Stable",
       "V2Dir",
@@ -22823,7 +22828,7 @@
     ],
     "country": "ro",
     "is_exit": true,
-    "is_guard": false
+    "is_guard": true
   },
   {
     "fingerprint": "7AFC157269130BCF36BCCAC0F2DAA0685E70D40D",
@@ -36478,6 +36483,7 @@
     "flags": [
       "Exit",
       "Fast",
+      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -39634,21 +39640,6 @@
     "is_guard": true
   },
   {
-    "fingerprint": "D950DB39A40B776A6119342CD5807B63B1D8AD60",
-    "nickname": "UnredactedTLS",
-    "address": "23.191.200.30:443",
-    "flags": [
-      "Exit",
-      "Fast",
-      "Running",
-      "V2Dir",
-      "Valid"
-    ],
-    "country": "us",
-    "is_exit": true,
-    "is_guard": false
-  },
-  {
     "fingerprint": "D95467FC5B33006CE5C6A2E1768723F3FBC44A2B",
     "nickname": "Quetzalcoatl",
     "address": "124.198.131.253:8100",
@@ -42743,7 +42734,6 @@
       "Exit",
       "Fast",
       "Guard",
-      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
