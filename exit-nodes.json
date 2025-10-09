@@ -3519,6 +3519,7 @@
       "Fast",
       "Running",
       "Stable",
+      "V2Dir",
       "Valid"
     ],
     "country": "us",
@@ -6271,7 +6272,6 @@
       "Exit",
       "Fast",
       "Guard",
-      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -12089,6 +12089,7 @@
       "HSDir",
       "Running",
       "Stable",
+      "StaleDesc",
       "V2Dir",
       "Valid"
     ],
@@ -12234,6 +12235,21 @@
     "country": "de",
     "is_exit": true,
     "is_guard": true
+  },
+  {
+    "fingerprint": "42A05472952923D70DA57D7FA6E8504B124703A0",
+    "nickname": "UnredactedUFO",
+    "address": "23.191.200.27:443",
+    "flags": [
+      "Exit",
+      "Fast",
+      "Running",
+      "V2Dir",
+      "Valid"
+    ],
+    "country": "us",
+    "is_exit": true,
+    "is_guard": false
   },
   {
     "fingerprint": "42E817BE07AB39CA3BD7A442AF08E007FF2E3F5B",
@@ -14519,21 +14535,6 @@
     "is_guard": false
   },
   {
-    "fingerprint": "4F598EB84B0762BE84885EF29B5B4536AECFE99C",
-    "nickname": "southbridge",
-    "address": "89.115.155.184:9001",
-    "flags": [
-      "Exit",
-      "Fast",
-      "Running",
-      "V2Dir",
-      "Valid"
-    ],
-    "country": "pt",
-    "is_exit": true,
-    "is_guard": false
-  },
-  {
     "fingerprint": "4F73A0B952ADA6C9676BBCE9F172ECF18DE1F396",
     "nickname": "prsv",
     "address": "46.29.238.25:9100",
@@ -16616,8 +16617,8 @@
   },
   {
     "fingerprint": "590D3D0205A398D65FF7E41C7ED46E46CB7CE856",
-    "nickname": "hogman2",
-    "address": "23.137.253.109:5061",
+    "nickname": "hogman6",
+    "address": "209.141.45.81:5061",
     "flags": [
       "Exit",
       "Fast",
@@ -29004,20 +29005,6 @@
     "is_guard": true
   },
   {
-    "fingerprint": "9B101EC8B34D5AC120F5114FB48FDBC87CFB9383",
-    "nickname": "BSDTorExit",
-    "address": "38.135.24.176:443",
-    "flags": [
-      "Exit",
-      "Running",
-      "V2Dir",
-      "Valid"
-    ],
-    "country": "us",
-    "is_exit": true,
-    "is_guard": false
-  },
-  {
     "fingerprint": "9B172F69B746C3B415E64B8E9DCEF791EDF0ADC5",
     "nickname": "NTH21R7",
     "address": "192.42.116.173:9006",
@@ -33870,6 +33857,7 @@
     "flags": [
       "Exit",
       "Fast",
+      "Guard",
       "HSDir",
       "Running",
       "Stable",
@@ -33878,7 +33866,7 @@
     ],
     "country": "pl",
     "is_exit": true,
-    "is_guard": false
+    "is_guard": true
   },
   {
     "fingerprint": "B882ECD090C8128746E9012756424CED20759F76",
@@ -44427,7 +44415,6 @@
       "Exit",
       "Fast",
       "Guard",
-      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
