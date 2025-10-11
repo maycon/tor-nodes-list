@@ -10997,6 +10997,7 @@
       "Fast",
       "Running",
       "Stable",
+      "StaleDesc",
       "Valid"
     ],
     "country": "de",
@@ -11417,6 +11418,20 @@
     "country": "ru",
     "is_exit": true,
     "is_guard": true
+  },
+  {
+    "fingerprint": "3E0572F76DD0CCFA7E84534FD521505325EBF374",
+    "nickname": "snowcore",
+    "address": "87.121.79.55:443",
+    "flags": [
+      "Exit",
+      "Running",
+      "V2Dir",
+      "Valid"
+    ],
+    "country": "nl",
+    "is_exit": true,
+    "is_guard": false
   },
   {
     "fingerprint": "3E06190E922B35EB4CB518657FEFB3FC96A33276",
@@ -12253,21 +12268,6 @@
     "country": "de",
     "is_exit": true,
     "is_guard": true
-  },
-  {
-    "fingerprint": "42A05472952923D70DA57D7FA6E8504B124703A0",
-    "nickname": "UnredactedUFO",
-    "address": "23.191.200.27:443",
-    "flags": [
-      "Exit",
-      "Fast",
-      "Running",
-      "V2Dir",
-      "Valid"
-    ],
-    "country": "us",
-    "is_exit": true,
-    "is_guard": false
   },
   {
     "fingerprint": "42E817BE07AB39CA3BD7A442AF08E007FF2E3F5B",
@@ -16968,21 +16968,6 @@
     "is_guard": true
   },
   {
-    "fingerprint": "5A2F1FB7DF9C1636F4DDEB732081F85041330D92",
-    "nickname": "BHCARM64OpenBSD1",
-    "address": "185.104.120.10:443",
-    "flags": [
-      "Exit",
-      "Fast",
-      "Running",
-      "V2Dir",
-      "Valid"
-    ],
-    "country": "gb",
-    "is_exit": true,
-    "is_guard": false
-  },
-  {
     "fingerprint": "5A3319CD08B9334B21A3A2D0A51435BB88E46672",
     "nickname": "eagerrose",
     "address": "185.225.69.232:443",
@@ -18863,6 +18848,7 @@
       "Exit",
       "Fast",
       "Guard",
+      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -20511,6 +20497,7 @@
     "flags": [
       "Exit",
       "Fast",
+      "Guard",
       "Running",
       "Stable",
       "V2Dir",
@@ -20518,7 +20505,7 @@
     ],
     "country": "se",
     "is_exit": true,
-    "is_guard": false
+    "is_guard": true
   },
   {
     "fingerprint": "6BFCFA946F57756F9B198026509A737A374022EE",
@@ -23936,22 +23923,6 @@
       "Valid"
     ],
     "country": "nl",
-    "is_exit": true,
-    "is_guard": false
-  },
-  {
-    "fingerprint": "7FA39E6A58DCC7E007F24D21C41055DBEFA8824B",
-    "nickname": "2mpe2",
-    "address": "198.98.51.249:8443",
-    "flags": [
-      "BadExit",
-      "Exit",
-      "Fast",
-      "Running",
-      "V2Dir",
-      "Valid"
-    ],
-    "country": "us",
     "is_exit": true,
     "is_guard": false
   },
@@ -30252,7 +30223,9 @@
     "flags": [
       "Exit",
       "Fast",
+      "HSDir",
       "Running",
+      "Stable",
       "V2Dir",
       "Valid"
     ],
@@ -31620,6 +31593,7 @@
       "Exit",
       "Fast",
       "Running",
+      "StaleDesc",
       "V2Dir",
       "Valid"
     ],
@@ -34326,7 +34300,6 @@
       "Exit",
       "Fast",
       "Guard",
-      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -37381,24 +37354,6 @@
     "is_guard": false
   },
   {
-    "fingerprint": "CAAF196BBD92CA8BE0F64868D16B7DCD4A629A0F",
-    "nickname": "CarterParadox",
-    "address": "103.109.101.105:443",
-    "flags": [
-      "Exit",
-      "Fast",
-      "Guard",
-      "HSDir",
-      "Running",
-      "Stable",
-      "V2Dir",
-      "Valid"
-    ],
-    "country": "hk",
-    "is_exit": true,
-    "is_guard": true
-  },
-  {
     "fingerprint": "CAD88DF1318F952D0981427FF27DAF89DF9DFE4A",
     "nickname": "Quetzalcoatl",
     "address": "45.141.215.200:143",
@@ -40253,21 +40208,6 @@
     "country": "se",
     "is_exit": true,
     "is_guard": true
-  },
-  {
-    "fingerprint": "D950DB39A40B776A6119342CD5807B63B1D8AD60",
-    "nickname": "UnredactedTLS",
-    "address": "23.191.200.30:443",
-    "flags": [
-      "Exit",
-      "Fast",
-      "Running",
-      "V2Dir",
-      "Valid"
-    ],
-    "country": "us",
-    "is_exit": true,
-    "is_guard": false
   },
   {
     "fingerprint": "D95467FC5B33006CE5C6A2E1768723F3FBC44A2B",
@@ -45283,6 +45223,7 @@
       "Exit",
       "Fast",
       "Guard",
+      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
