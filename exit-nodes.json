@@ -6,6 +6,7 @@
     "flags": [
       "Exit",
       "Fast",
+      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -2192,7 +2193,6 @@
       "HSDir",
       "Running",
       "Stable",
-      "StaleDesc",
       "V2Dir",
       "Valid"
     ],
@@ -4005,6 +4005,7 @@
     "flags": [
       "Exit",
       "Fast",
+      "Guard",
       "HSDir",
       "Running",
       "Stable",
@@ -4013,7 +4014,7 @@
     ],
     "country": "dk",
     "is_exit": true,
-    "is_guard": false
+    "is_guard": true
   },
   {
     "fingerprint": "1437808AD400AFD9AAC0B87D80AA7EAEF23E6FE7",
@@ -6403,6 +6404,7 @@
     "flags": [
       "Exit",
       "Fast",
+      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -9835,6 +9837,7 @@
       "Exit",
       "Fast",
       "Running",
+      "StaleDesc",
       "V2Dir",
       "Valid"
     ],
@@ -11345,6 +11348,20 @@
     "is_guard": true
   },
   {
+    "fingerprint": "3E0572F76DD0CCFA7E84534FD521505325EBF374",
+    "nickname": "snowcore",
+    "address": "87.121.79.55:443",
+    "flags": [
+      "Exit",
+      "Running",
+      "V2Dir",
+      "Valid"
+    ],
+    "country": "nl",
+    "is_exit": true,
+    "is_guard": false
+  },
+  {
     "fingerprint": "3E06190E922B35EB4CB518657FEFB3FC96A33276",
     "nickname": "DFRI81",
     "address": "171.25.193.39:9001",
@@ -11709,7 +11726,9 @@
     "flags": [
       "Exit",
       "Fast",
+      "HSDir",
       "Running",
+      "Stable",
       "V2Dir",
       "Valid"
     ],
@@ -12765,6 +12784,7 @@
       "Exit",
       "Fast",
       "Guard",
+      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -14317,6 +14337,7 @@
     "flags": [
       "Exit",
       "Fast",
+      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -14869,6 +14890,7 @@
       "Exit",
       "Fast",
       "Guard",
+      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -16889,22 +16911,6 @@
     "is_guard": true
   },
   {
-    "fingerprint": "5A2F1FB7DF9C1636F4DDEB732081F85041330D92",
-    "nickname": "BHCARM64OpenBSD1",
-    "address": "185.104.120.10:443",
-    "flags": [
-      "Exit",
-      "Fast",
-      "Running",
-      "StaleDesc",
-      "V2Dir",
-      "Valid"
-    ],
-    "country": "gb",
-    "is_exit": true,
-    "is_guard": false
-  },
-  {
     "fingerprint": "5A3319CD08B9334B21A3A2D0A51435BB88E46672",
     "nickname": "eagerrose",
     "address": "185.225.69.232:443",
@@ -17142,7 +17148,6 @@
       "HSDir",
       "Running",
       "Stable",
-      "StaleDesc",
       "V2Dir",
       "Valid"
     ],
@@ -23866,6 +23871,22 @@
     "is_guard": false
   },
   {
+    "fingerprint": "7FA39E6A58DCC7E007F24D21C41055DBEFA8824B",
+    "nickname": "2mpe2",
+    "address": "198.98.51.249:8443",
+    "flags": [
+      "BadExit",
+      "Exit",
+      "Fast",
+      "Running",
+      "V2Dir",
+      "Valid"
+    ],
+    "country": "us",
+    "is_exit": true,
+    "is_guard": false
+  },
+  {
     "fingerprint": "7FD6266106DB18162646BBF9012D8AA1CDA36B33",
     "nickname": "jerryrelay",
     "address": "220.135.36.173:9001",
@@ -24071,7 +24092,7 @@
   {
     "fingerprint": "80851B33CB0C6760EE0BCF72904F429158903C77",
     "nickname": "europeantgah",
-    "address": "198.167.206.198:9001",
+    "address": "198.167.206.214:9001",
     "flags": [
       "Exit",
       "Running",
@@ -30516,7 +30537,6 @@
       "Exit",
       "Fast",
       "Guard",
-      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -33964,7 +33984,6 @@
       "Exit",
       "Fast",
       "Running",
-      "StaleDesc",
       "V2Dir",
       "Valid"
     ],
@@ -38967,21 +38986,6 @@
     "is_guard": true
   },
   {
-    "fingerprint": "D2C3D761AFAD0B368D13FABA204253AD926470A7",
-    "nickname": "prsv",
-    "address": "93.94.52.229:9000",
-    "flags": [
-      "Exit",
-      "Fast",
-      "Running",
-      "V2Dir",
-      "Valid"
-    ],
-    "country": "iq",
-    "is_exit": true,
-    "is_guard": false
-  },
-  {
     "fingerprint": "D2E30488BD9CB80D4FB6156889EE891923705098",
     "nickname": "SiFiveHiFive",
     "address": "23.129.64.99:443",
@@ -41494,6 +41498,7 @@
       "Exit",
       "Fast",
       "Guard",
+      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -44348,7 +44353,6 @@
       "Exit",
       "Fast",
       "Running",
-      "StaleDesc",
       "V2Dir",
       "Valid"
     ],
@@ -46278,7 +46282,6 @@
       "Exit",
       "Fast",
       "Guard",
-      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
