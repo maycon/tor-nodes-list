@@ -3817,7 +3817,6 @@
       "Exit",
       "Fast",
       "Running",
-      "StaleDesc",
       "V2Dir",
       "Valid"
     ],
@@ -4488,13 +4487,15 @@
     "flags": [
       "Exit",
       "Fast",
+      "Guard",
       "Running",
+      "Stable",
       "V2Dir",
       "Valid"
     ],
     "country": "al",
     "is_exit": true,
-    "is_guard": false
+    "is_guard": true
   },
   {
     "fingerprint": "167DCDA849A47EAEC227B584180CB3E220773151",
@@ -10896,6 +10897,21 @@
     "is_guard": false
   },
   {
+    "fingerprint": "3A19D784D1DBDE1E7E7FF65977D5D0E03A15867A",
+    "nickname": "UnredactedAlien",
+    "address": "23.191.200.28:443",
+    "flags": [
+      "Exit",
+      "Fast",
+      "Running",
+      "V2Dir",
+      "Valid"
+    ],
+    "country": "us",
+    "is_exit": true,
+    "is_guard": false
+  },
+  {
     "fingerprint": "3A1D935A569938763AFBBB40E783ED7C99F0BB78",
     "nickname": "PufferfishLAS",
     "address": "209.141.41.25:9001",
@@ -13655,19 +13671,6 @@
     "is_guard": true
   },
   {
-    "fingerprint": "48B1FB945E08E3FC0F880110D6A76C87FAD993F0",
-    "nickname": "golosa",
-    "address": "176.58.121.177:9001",
-    "flags": [
-      "Exit",
-      "Running",
-      "Valid"
-    ],
-    "country": "gb",
-    "is_exit": true,
-    "is_guard": false
-  },
-  {
     "fingerprint": "48F0A45B0A6247F2F4683EC5E77DEB5678BCAE36",
     "nickname": "TORKeFFORG36",
     "address": "193.189.100.203:445",
@@ -15073,6 +15076,21 @@
     "country": "nl",
     "is_exit": true,
     "is_guard": true
+  },
+  {
+    "fingerprint": "51646B520852370793AAA332CEFD5F4BFAA8C46B",
+    "nickname": "FreedomIsAMust",
+    "address": "195.160.220.104:9001",
+    "flags": [
+      "Exit",
+      "Fast",
+      "Running",
+      "V2Dir",
+      "Valid"
+    ],
+    "country": "nl",
+    "is_exit": true,
+    "is_guard": false
   },
   {
     "fingerprint": "51691C7926B134AB582F3489D23A95E59DC3470C",
@@ -17041,7 +17059,6 @@
       "HSDir",
       "Running",
       "Stable",
-      "StaleDesc",
       "V2Dir",
       "Valid"
     ],
@@ -25945,6 +25962,7 @@
       "HSDir",
       "Running",
       "Stable",
+      "StaleDesc",
       "V2Dir",
       "Valid"
     ],
@@ -40671,21 +40689,6 @@
     "country": "us",
     "is_exit": true,
     "is_guard": true
-  },
-  {
-    "fingerprint": "DD283C45FA6952C0E174AE52959CB2AC0B00543F",
-    "nickname": "UnredactedXMR",
-    "address": "23.191.200.29:443",
-    "flags": [
-      "Exit",
-      "Fast",
-      "Running",
-      "V2Dir",
-      "Valid"
-    ],
-    "country": "us",
-    "is_exit": true,
-    "is_guard": false
   },
   {
     "fingerprint": "DD68CED74414FF446E52596462CEDAEF7E66BED7",
