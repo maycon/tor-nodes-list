@@ -4713,6 +4713,7 @@
     "nickname": "saurkrautor",
     "address": "212.193.3.103:9000",
     "flags": [
+      "BadExit",
       "Exit",
       "Fast",
       "Running",
@@ -8243,9 +8244,9 @@
     "nickname": "saurkrautor",
     "address": "212.193.3.103:9100",
     "flags": [
+      "BadExit",
       "Exit",
       "Fast",
-      "Guard",
       "Running",
       "Stable",
       "V2Dir",
@@ -8253,7 +8254,7 @@
     ],
     "country": "de",
     "is_exit": true,
-    "is_guard": true
+    "is_guard": false
   },
   {
     "fingerprint": "2BC257D07F517E58D2A9EF229708B539D5F7D96F",
@@ -9310,6 +9311,22 @@
     "is_guard": false
   },
   {
+    "fingerprint": "30FCC828D94E84AC1698347881A9149983634FF8",
+    "nickname": "tainish",
+    "address": "130.193.10.21:443",
+    "flags": [
+      "Exit",
+      "Fast",
+      "Running",
+      "Stable",
+      "V2Dir",
+      "Valid"
+    ],
+    "country": "cz",
+    "is_exit": true,
+    "is_guard": false
+  },
+  {
     "fingerprint": "310E446A31DE089752FCC02F06B071F4F8CCAE89",
     "nickname": "drake",
     "address": "23.129.64.134:443",
@@ -9662,7 +9679,6 @@
       "Fast",
       "Running",
       "Stable",
-      "StaleDesc",
       "Valid"
     ],
     "country": "de",
@@ -9695,7 +9711,6 @@
       "Fast",
       "Running",
       "Stable",
-      "StaleDesc",
       "Valid"
     ],
     "country": "de",
@@ -14994,6 +15009,7 @@
       "Exit",
       "Fast",
       "Guard",
+      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -15051,22 +15067,6 @@
     "country": "nl",
     "is_exit": true,
     "is_guard": true
-  },
-  {
-    "fingerprint": "51678BE4641918F7EC491DF6232AFE27B8DAE317",
-    "nickname": "toothpaste",
-    "address": "23.137.253.179:9001",
-    "flags": [
-      "BadExit",
-      "Exit",
-      "Fast",
-      "Running",
-      "V2Dir",
-      "Valid"
-    ],
-    "country": "us",
-    "is_exit": true,
-    "is_guard": false
   },
   {
     "fingerprint": "51691C7926B134AB582F3489D23A95E59DC3470C",
@@ -16046,22 +16046,6 @@
     "country": "nl",
     "is_exit": true,
     "is_guard": true
-  },
-  {
-    "fingerprint": "55E8C58B5B12C0440D559A1789C2EBDE508A7234",
-    "nickname": "c1vsb",
-    "address": "152.89.168.21:9001",
-    "flags": [
-      "BadExit",
-      "Exit",
-      "Fast",
-      "Running",
-      "V2Dir",
-      "Valid"
-    ],
-    "country": "it",
-    "is_exit": true,
-    "is_guard": false
   },
   {
     "fingerprint": "55FFC2C4D01ACEAFE24C4089A615F91B616B865E",
@@ -17108,6 +17092,7 @@
       "Exit",
       "Fast",
       "Running",
+      "StaleDesc",
       "V2Dir",
       "Valid"
     ],
@@ -17313,6 +17298,7 @@
       "HSDir",
       "Running",
       "Stable",
+      "StaleDesc",
       "V2Dir",
       "Valid"
     ],
@@ -18348,7 +18334,6 @@
       "Fast",
       "Running",
       "Stable",
-      "StaleDesc",
       "Valid"
     ],
     "country": "de",
@@ -19179,7 +19164,6 @@
       "Fast",
       "Running",
       "Stable",
-      "StaleDesc",
       "Valid"
     ],
     "country": "de",
@@ -20651,7 +20635,6 @@
       "Fast",
       "Running",
       "Stable",
-      "StaleDesc",
       "Valid"
     ],
     "country": "de",
@@ -21021,7 +21004,6 @@
       "Fast",
       "Running",
       "Stable",
-      "StaleDesc",
       "Valid"
     ],
     "country": "de",
@@ -22406,7 +22388,6 @@
       "Exit",
       "Fast",
       "Guard",
-      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -23713,7 +23694,6 @@
       "Fast",
       "Running",
       "Stable",
-      "StaleDesc",
       "V2Dir",
       "Valid"
     ],
@@ -26919,6 +26899,7 @@
       "Exit",
       "Fast",
       "Guard",
+      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -27006,7 +26987,6 @@
       "Fast",
       "Running",
       "Stable",
-      "StaleDesc",
       "Valid"
     ],
     "country": "de",
@@ -31759,7 +31739,6 @@
       "Fast",
       "Running",
       "Stable",
-      "StaleDesc",
       "Valid"
     ],
     "country": "de",
@@ -35096,21 +35075,6 @@
     "is_guard": true
   },
   {
-    "fingerprint": "BE5B86C541A117DE711A91B68060869AE5595801",
-    "nickname": "CypherpunkLabsExit",
-    "address": "176.65.149.239:9001",
-    "flags": [
-      "BadExit",
-      "Exit",
-      "Running",
-      "V2Dir",
-      "Valid"
-    ],
-    "country": "nl",
-    "is_exit": true,
-    "is_guard": false
-  },
-  {
     "fingerprint": "BE7BC780C43A64686D4A25725EAE436F2CE6D13A",
     "nickname": "NTH3R8",
     "address": "192.42.116.193:9007",
@@ -36723,6 +36687,20 @@
     "country": "pl",
     "is_exit": true,
     "is_guard": true
+  },
+  {
+    "fingerprint": "C79C7E957B045113F6633AB5DA17433F30E49920",
+    "nickname": "forest1",
+    "address": "94.156.152.8:9001",
+    "flags": [
+      "Exit",
+      "Fast",
+      "Running",
+      "Valid"
+    ],
+    "country": "za",
+    "is_exit": true,
+    "is_guard": false
   },
   {
     "fingerprint": "C79D4FE6EC868612396ED66CDDE7678F8EF466A9",
@@ -39659,7 +39637,6 @@
       "Fast",
       "Running",
       "Stable",
-      "StaleDesc",
       "Valid"
     ],
     "country": "de",
@@ -40621,7 +40598,6 @@
       "Fast",
       "Running",
       "Stable",
-      "StaleDesc",
       "Valid"
     ],
     "country": "de",
@@ -41715,21 +41691,6 @@
     "country": "pl",
     "is_exit": true,
     "is_guard": true
-  },
-  {
-    "fingerprint": "E00EE2662FEEE7C3C0DEEF0CCBFC697F9325D98B",
-    "nickname": "CypherpunkLabsExit",
-    "address": "176.65.149.238:9001",
-    "flags": [
-      "BadExit",
-      "Exit",
-      "Running",
-      "V2Dir",
-      "Valid"
-    ],
-    "country": "nl",
-    "is_exit": true,
-    "is_guard": false
   },
   {
     "fingerprint": "E015142E5A6A5C679D19BBF15D547EC73B6E7104",
@@ -44095,7 +44056,6 @@
       "Fast",
       "Running",
       "Stable",
-      "StaleDesc",
       "Valid"
     ],
     "country": "de",
@@ -46956,7 +46916,6 @@
       "Fast",
       "Running",
       "Stable",
-      "StaleDesc",
       "Valid"
     ],
     "country": "de",
@@ -47043,7 +47002,6 @@
       "Fast",
       "Running",
       "Stable",
-      "StaleDesc",
       "Valid"
     ],
     "country": "de",
