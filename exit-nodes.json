@@ -8283,6 +8283,7 @@
     "flags": [
       "Exit",
       "Fast",
+      "Guard",
       "HSDir",
       "Running",
       "Stable",
@@ -8291,7 +8292,7 @@
     ],
     "country": "nl",
     "is_exit": true,
-    "is_guard": false
+    "is_guard": true
   },
   {
     "fingerprint": "2DDD34037A8E419CB518D7C5A7331BABB2D047DD",
@@ -9313,6 +9314,20 @@
     "country": "fr",
     "is_exit": true,
     "is_guard": true
+  },
+  {
+    "fingerprint": "3257530F221E4030608DE5826BEEE183173CE3DB",
+    "nickname": "Crow",
+    "address": "45.38.20.43:9001",
+    "flags": [
+      "Exit",
+      "Running",
+      "V2Dir",
+      "Valid"
+    ],
+    "country": "us",
+    "is_exit": true,
+    "is_guard": false
   },
   {
     "fingerprint": "3276980E8C30914750FF488B7339F753E96322DA",
@@ -11734,7 +11749,6 @@
       "Guard",
       "Running",
       "Stable",
-      "StaleDesc",
       "V2Dir",
       "Valid"
     ],
@@ -19280,6 +19294,7 @@
     "flags": [
       "Exit",
       "Fast",
+      "Guard",
       "HSDir",
       "Running",
       "Stable",
@@ -19288,7 +19303,7 @@
     ],
     "country": "nl",
     "is_exit": true,
-    "is_guard": false
+    "is_guard": true
   },
   {
     "fingerprint": "68A54E180F778AFE96C7906A528B1EFEDFD42A47",
@@ -35643,6 +35658,21 @@
     "is_guard": false
   },
   {
+    "fingerprint": "CA2488130243041C633A93F58D1B275EB20843AB",
+    "nickname": "Unnamed",
+    "address": "185.212.226.76:9001",
+    "flags": [
+      "Exit",
+      "Fast",
+      "Running",
+      "V2Dir",
+      "Valid"
+    ],
+    "country": "fr",
+    "is_exit": true,
+    "is_guard": false
+  },
+  {
     "fingerprint": "CA2EB8A5DC4BD8A0C87E4C30054E7822E53D3E20",
     "nickname": "UnredactedMKUltra",
     "address": "23.191.200.9:443",
@@ -43566,21 +43596,6 @@
       "Valid"
     ],
     "country": "at",
-    "is_exit": true,
-    "is_guard": false
-  },
-  {
-    "fingerprint": "F34EE673122518873E717C128E35A389B72C7837",
-    "nickname": "UnredactedSnowden",
-    "address": "23.191.200.2:443",
-    "flags": [
-      "Exit",
-      "Fast",
-      "Running",
-      "V2Dir",
-      "Valid"
-    ],
-    "country": "us",
     "is_exit": true,
     "is_guard": false
   },
