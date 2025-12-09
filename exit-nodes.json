@@ -5697,7 +5697,6 @@
       "Exit",
       "Fast",
       "Running",
-      "StaleDesc",
       "V2Dir",
       "Valid"
     ],
@@ -10325,7 +10324,6 @@
       "Exit",
       "Fast",
       "Guard",
-      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -11776,6 +11774,7 @@
     "address": "44.30.4.69:9964",
     "flags": [
       "Exit",
+      "Fast",
       "Running",
       "V2Dir",
       "Valid"
@@ -17783,7 +17782,6 @@
       "HSDir",
       "Running",
       "Stable",
-      "StaleDesc",
       "V2Dir",
       "Valid"
     ],
@@ -25859,6 +25857,24 @@
     "is_guard": false
   },
   {
+    "fingerprint": "85A1DBD529F49AB0C24ED695CB10E3EB601A5C3E",
+    "nickname": "CembraNutBoys01",
+    "address": "138.226.236.103:443",
+    "flags": [
+      "BadExit",
+      "Exit",
+      "Fast",
+      "Guard",
+      "Running",
+      "Stable",
+      "V2Dir",
+      "Valid"
+    ],
+    "country": "bz",
+    "is_exit": true,
+    "is_guard": true
+  },
+  {
     "fingerprint": "85D4088148B1A6954C9BFFFCA010E85E0AA88FF0",
     "nickname": "mailboxorg",
     "address": "80.241.60.207:443",
@@ -32795,6 +32811,7 @@
     "flags": [
       "Exit",
       "Fast",
+      "Guard",
       "HSDir",
       "Running",
       "Stable",
@@ -32803,7 +32820,7 @@
     ],
     "country": "sg",
     "is_exit": true,
-    "is_guard": false
+    "is_guard": true
   },
   {
     "fingerprint": "AA835C10638887DBE7C21299DDE439206B85CC89",
@@ -38818,21 +38835,6 @@
     "country": "ro",
     "is_exit": true,
     "is_guard": true
-  },
-  {
-    "fingerprint": "CD9B17990888241FF1CB8CED9E94C7483203E123",
-    "nickname": "snow",
-    "address": "23.137.255.131:9001",
-    "flags": [
-      "Exit",
-      "Fast",
-      "Running",
-      "V2Dir",
-      "Valid"
-    ],
-    "country": "us",
-    "is_exit": true,
-    "is_guard": false
   },
   {
     "fingerprint": "CDA71E2FAEE3F0A33DA344E254AF5E30A8926F88",
