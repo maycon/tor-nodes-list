@@ -2050,7 +2050,6 @@
       "Exit",
       "Fast",
       "Guard",
-      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -3281,6 +3280,7 @@
     "flags": [
       "Exit",
       "Fast",
+      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -3576,6 +3576,7 @@
     "address": "45.137.99.182:9001",
     "flags": [
       "Exit",
+      "Fast",
       "Running",
       "V2Dir",
       "Valid"
@@ -3982,7 +3983,6 @@
       "Exit",
       "Fast",
       "Guard",
-      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -4433,7 +4433,6 @@
       "Exit",
       "Fast",
       "Running",
-      "V2Dir",
       "Valid"
     ],
     "country": "de",
@@ -9875,23 +9874,6 @@
     "is_guard": true
   },
   {
-    "fingerprint": "31EF78B9019D61CF259B223DB9F80940994EDA34",
-    "nickname": "SieNCoAd",
-    "address": "5.255.101.10:443",
-    "flags": [
-      "Exit",
-      "Fast",
-      "Guard",
-      "Running",
-      "Stable",
-      "V2Dir",
-      "Valid"
-    ],
-    "country": "nl",
-    "is_exit": true,
-    "is_guard": true
-  },
-  {
     "fingerprint": "31F26280E5FD4C757E10B5B195FBB2F60DE18EE6",
     "nickname": "obzgs5tbmn4q",
     "address": "82.153.138.57:9002",
@@ -10340,6 +10322,7 @@
     "flags": [
       "Exit",
       "Fast",
+      "Guard",
       "Running",
       "Stable",
       "V2Dir",
@@ -10347,7 +10330,7 @@
     ],
     "country": "gb",
     "is_exit": true,
-    "is_guard": false
+    "is_guard": true
   },
   {
     "fingerprint": "34A8DB1B8A5DEBF5A9E6754F42221C112950E517",
@@ -11079,7 +11062,6 @@
       "Exit",
       "Fast",
       "Guard",
-      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -12620,7 +12602,6 @@
       "HSDir",
       "Running",
       "Stable",
-      "StaleDesc",
       "V2Dir",
       "Valid"
     ],
@@ -14821,6 +14802,7 @@
     "flags": [
       "Exit",
       "Fast",
+      "Guard",
       "Running",
       "Stable",
       "V2Dir",
@@ -14828,7 +14810,7 @@
     ],
     "country": "gb",
     "is_exit": true,
-    "is_guard": false
+    "is_guard": true
   },
   {
     "fingerprint": "4C209C991956896A830890ED74A8AE1207EB8AF4",
@@ -15116,6 +15098,7 @@
       "Exit",
       "Fast",
       "Running",
+      "Stable",
       "V2Dir",
       "Valid"
     ],
@@ -17998,6 +17981,7 @@
       "HSDir",
       "Running",
       "Stable",
+      "StaleDesc",
       "V2Dir",
       "Valid"
     ],
@@ -23221,6 +23205,21 @@
     "country": "de",
     "is_exit": true,
     "is_guard": true
+  },
+  {
+    "fingerprint": "76CA636C1D33E3E8630B7AC22A1D07420FCE8761",
+    "nickname": "UnredactedManning",
+    "address": "23.191.200.3:443",
+    "flags": [
+      "Exit",
+      "Fast",
+      "Running",
+      "V2Dir",
+      "Valid"
+    ],
+    "country": "us",
+    "is_exit": true,
+    "is_guard": false
   },
   {
     "fingerprint": "76D03662346B1CCEB11A7B8A1934C64092581F2E",
@@ -28727,7 +28726,6 @@
       "Fast",
       "Running",
       "Stable",
-      "StaleDesc",
       "V2Dir",
       "Valid"
     ],
@@ -30077,21 +30075,6 @@
     "is_guard": true
   },
   {
-    "fingerprint": "9B101EC8B34D5AC120F5114FB48FDBC87CFB9383",
-    "nickname": "BSDTorExit",
-    "address": "38.135.24.176:443",
-    "flags": [
-      "Exit",
-      "Fast",
-      "Running",
-      "V2Dir",
-      "Valid"
-    ],
-    "country": "us",
-    "is_exit": true,
-    "is_guard": false
-  },
-  {
     "fingerprint": "9B172F69B746C3B415E64B8E9DCEF791EDF0ADC5",
     "nickname": "NTH21R7",
     "address": "192.42.116.173:9006",
@@ -31307,7 +31290,6 @@
       "Fast",
       "Running",
       "Stable",
-      "StaleDesc",
       "V2Dir",
       "Valid"
     ],
@@ -33459,7 +33441,6 @@
       "Fast",
       "Running",
       "Stable",
-      "StaleDesc",
       "V2Dir",
       "Valid"
     ],
@@ -43115,6 +43096,7 @@
       "Guard",
       "Running",
       "Stable",
+      "StaleDesc",
       "V2Dir",
       "Valid"
     ],
@@ -45852,6 +45834,7 @@
     "flags": [
       "Exit",
       "Fast",
+      "Guard",
       "Running",
       "Stable",
       "V2Dir",
@@ -45859,7 +45842,7 @@
     ],
     "country": "gb",
     "is_exit": true,
-    "is_guard": false
+    "is_guard": true
   },
   {
     "fingerprint": "ED2B8E669D68E095297591C0EE921A77298A0B25",
