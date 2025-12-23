@@ -9653,6 +9653,7 @@
     "flags": [
       "Exit",
       "Fast",
+      "Guard",
       "HSDir",
       "Running",
       "Stable",
@@ -9661,7 +9662,7 @@
     ],
     "country": "sg",
     "is_exit": true,
-    "is_guard": false
+    "is_guard": true
   },
   {
     "fingerprint": "31917AFC85EE34F85CAAF9CCCA56B90F2D4B1BA4",
@@ -11842,7 +11843,6 @@
       "Fast",
       "Running",
       "Stable",
-      "StaleDesc",
       "Valid"
     ],
     "country": "nl",
@@ -12428,7 +12428,6 @@
       "HSDir",
       "Running",
       "Stable",
-      "StaleDesc",
       "V2Dir",
       "Valid"
     ],
@@ -22799,6 +22798,21 @@
     "is_guard": true
   },
   {
+    "fingerprint": "76CA636C1D33E3E8630B7AC22A1D07420FCE8761",
+    "nickname": "UnredactedManning",
+    "address": "23.191.200.3:443",
+    "flags": [
+      "Exit",
+      "Fast",
+      "Running",
+      "V2Dir",
+      "Valid"
+    ],
+    "country": "us",
+    "is_exit": true,
+    "is_guard": false
+  },
+  {
     "fingerprint": "76CB2A385410AC707AC1C9CFE20CB0E633E526BA",
     "nickname": "prsv",
     "address": "194.32.107.87:9000",
@@ -23805,6 +23819,22 @@
     "country": "ro",
     "is_exit": true,
     "is_guard": true
+  },
+  {
+    "fingerprint": "7BE9E2EF2BB41BB662D9A3CD68289B9E3DBF8A08",
+    "nickname": "WYSWYG",
+    "address": "109.228.160.190:65532",
+    "flags": [
+      "Exit",
+      "Fast",
+      "Running",
+      "StaleDesc",
+      "V2Dir",
+      "Valid"
+    ],
+    "country": "se",
+    "is_exit": true,
+    "is_guard": false
   },
   {
     "fingerprint": "7C0AA4E3B73E407E9F5FEB1912F8BE26D8AA124D",
@@ -29102,6 +29132,7 @@
     "flags": [
       "Exit",
       "Fast",
+      "Guard",
       "HSDir",
       "Running",
       "Stable",
@@ -29110,7 +29141,7 @@
     ],
     "country": "us",
     "is_exit": true,
-    "is_guard": false
+    "is_guard": true
   },
   {
     "fingerprint": "99348748C22EE093F22D32F1996507DC2E363872",
@@ -29840,7 +29871,6 @@
     "flags": [
       "Exit",
       "Running",
-      "StaleDesc",
       "V2Dir",
       "Valid"
     ],
@@ -36510,7 +36540,6 @@
       "Fast",
       "Running",
       "Stable",
-      "StaleDesc",
       "Valid"
     ],
     "country": "nl",
@@ -37562,21 +37591,6 @@
       "Valid"
     ],
     "country": "za",
-    "is_exit": true,
-    "is_guard": false
-  },
-  {
-    "fingerprint": "C7A82B462EFEF44651C799CBD30621FE0F48A3EA",
-    "nickname": "UnredactedAssange",
-    "address": "23.191.200.4:443",
-    "flags": [
-      "Exit",
-      "Fast",
-      "Running",
-      "V2Dir",
-      "Valid"
-    ],
-    "country": "us",
     "is_exit": true,
     "is_guard": false
   },
@@ -41414,6 +41428,7 @@
       "Fast",
       "Running",
       "Stable",
+      "StaleDesc",
       "Valid"
     ],
     "country": "nl",
@@ -45502,6 +45517,7 @@
       "Exit",
       "Fast",
       "Guard",
+      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -47588,7 +47604,6 @@
       "Fast",
       "Running",
       "Stable",
-      "StaleDesc",
       "Valid"
     ],
     "country": "nl",
