@@ -995,6 +995,7 @@
       "Exit",
       "Fast",
       "Guard",
+      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -9902,6 +9903,7 @@
       "Exit",
       "Fast",
       "Running",
+      "Stable",
       "V2Dir",
       "Valid"
     ],
@@ -9969,6 +9971,7 @@
     "flags": [
       "Exit",
       "Fast",
+      "Guard",
       "HSDir",
       "Running",
       "Stable",
@@ -9977,7 +9980,7 @@
     ],
     "country": "nl",
     "is_exit": true,
-    "is_guard": false
+    "is_guard": true
   },
   {
     "fingerprint": "31E7A39BAE450C51D46EA74E3CABA715CC5EAB2F",
@@ -12811,7 +12814,6 @@
       "Exit",
       "Fast",
       "Guard",
-      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -26631,15 +26633,13 @@
     "flags": [
       "Exit",
       "Fast",
-      "Guard",
       "Running",
-      "Stable",
       "V2Dir",
       "Valid"
     ],
     "country": "lu",
     "is_exit": true,
-    "is_guard": true
+    "is_guard": false
   },
   {
     "fingerprint": "893A3D4B91EA0ACB38D7E4A28ED3CF396E159EF1",
@@ -37307,6 +37307,7 @@
       "Exit",
       "Fast",
       "Running",
+      "StaleDesc",
       "V2Dir",
       "Valid"
     ],
@@ -37335,7 +37336,7 @@
   {
     "fingerprint": "C2E34F3DB534B6D15E4CCF372B01B9A70375237E",
     "nickname": "BronkExit",
-    "address": "45.9.168.106:443",
+    "address": "45.9.168.106:8443",
     "flags": [
       "Exit",
       "Running",
@@ -42011,7 +42012,6 @@
       "Exit",
       "Fast",
       "Guard",
-      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -47197,6 +47197,20 @@
     "is_guard": true
   },
   {
+    "fingerprint": "F2A1F8EFD021DC8AEFD4D04ED42F230F456EE84A",
+    "nickname": "HungarianBronkExit",
+    "address": "45.9.168.106:143",
+    "flags": [
+      "Exit",
+      "Running",
+      "V2Dir",
+      "Valid"
+    ],
+    "country": "hu",
+    "is_exit": true,
+    "is_guard": false
+  },
+  {
     "fingerprint": "F2F4F40138ABD15828F552D6BAA0889EB5565A9A",
     "nickname": "NotYourWifi",
     "address": "72.5.43.62:9001",
@@ -47879,7 +47893,6 @@
       "Exit",
       "Fast",
       "Running",
-      "Stable",
       "V2Dir",
       "Valid"
     ],
