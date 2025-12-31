@@ -19162,20 +19162,6 @@
     "is_guard": true
   },
   {
-    "fingerprint": "6055A518F03989F867DF7C435B61D5776D768B10",
-    "nickname": "SkaffaExit",
-    "address": "45.9.168.106:8443",
-    "flags": [
-      "Exit",
-      "Running",
-      "V2Dir",
-      "Valid"
-    ],
-    "country": "hu",
-    "is_exit": true,
-    "is_guard": false
-  },
-  {
     "fingerprint": "605D2F140276D5AA317B5774997DA8179A04DDEC",
     "nickname": "prsv",
     "address": "80.94.92.106:9400",
@@ -23521,13 +23507,15 @@
     "flags": [
       "Exit",
       "Fast",
+      "Guard",
       "Running",
+      "Stable",
       "V2Dir",
       "Valid"
     ],
     "country": "lu",
     "is_exit": true,
-    "is_guard": false
+    "is_guard": true
   },
   {
     "fingerprint": "7860F0AD272C7045A27C67CD215D467D8E679F45",
@@ -24351,7 +24339,6 @@
       "Exit",
       "Fast",
       "Guard",
-      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -27890,6 +27877,21 @@
     "is_guard": true
   },
   {
+    "fingerprint": "901935465351D5039FA2AB3712D081DBD3501E6C",
+    "nickname": "eden",
+    "address": "194.55.167.14:443",
+    "flags": [
+      "Exit",
+      "Fast",
+      "Running",
+      "V2Dir",
+      "Valid"
+    ],
+    "country": "cy",
+    "is_exit": true,
+    "is_guard": false
+  },
+  {
     "fingerprint": "9019CB92C4945631BF1953AEF56E8FD739EFDF1F",
     "nickname": "prsv",
     "address": "213.176.18.193:9100",
@@ -30026,6 +30028,21 @@
     "country": "de",
     "is_exit": true,
     "is_guard": true
+  },
+  {
+    "fingerprint": "9B101EC8B34D5AC120F5114FB48FDBC87CFB9383",
+    "nickname": "BSDTorExit",
+    "address": "38.135.24.176:443",
+    "flags": [
+      "Exit",
+      "Fast",
+      "Running",
+      "V2Dir",
+      "Valid"
+    ],
+    "country": "us",
+    "is_exit": true,
+    "is_guard": false
   },
   {
     "fingerprint": "9B172F69B746C3B415E64B8E9DCEF791EDF0ADC5",
@@ -35253,6 +35270,7 @@
       "Exit",
       "Fast",
       "Guard",
+      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -45442,7 +45460,6 @@
       "HSDir",
       "Running",
       "Stable",
-      "StaleDesc",
       "V2Dir",
       "Valid"
     ],
@@ -48138,10 +48155,8 @@
       "Exit",
       "Fast",
       "Guard",
-      "HSDir",
       "Running",
       "Stable",
-      "StaleDesc",
       "V2Dir",
       "Valid"
     ],
