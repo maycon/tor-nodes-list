@@ -960,7 +960,6 @@
       "Exit",
       "Fast",
       "Guard",
-      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -1014,7 +1013,6 @@
       "HSDir",
       "Running",
       "Stable",
-      "StaleDesc",
       "V2Dir",
       "Valid"
     ],
@@ -1973,10 +1971,8 @@
       "Exit",
       "Fast",
       "Guard",
-      "HSDir",
       "Running",
       "Stable",
-      "StaleDesc",
       "V2Dir",
       "Valid"
     ],
@@ -7175,6 +7171,7 @@
     "address": "194.26.192.153:9001",
     "flags": [
       "Exit",
+      "Fast",
       "Running",
       "V2Dir",
       "Valid"
@@ -7445,6 +7442,7 @@
       "Exit",
       "Fast",
       "Guard",
+      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -9459,6 +9457,7 @@
       "Exit",
       "Fast",
       "Guard",
+      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -30027,6 +30026,21 @@
     "is_guard": false
   },
   {
+    "fingerprint": "9A4787AE591C762C258EFE14375670363EA68FB0",
+    "nickname": "phin",
+    "address": "96.8.119.172:443",
+    "flags": [
+      "Exit",
+      "Fast",
+      "Running",
+      "V2Dir",
+      "Valid"
+    ],
+    "country": "us",
+    "is_exit": true,
+    "is_guard": false
+  },
+  {
     "fingerprint": "9A561CA579F0918D4E0C7A8533801B91C56FD605",
     "nickname": "DFRI79",
     "address": "171.25.193.39:81",
@@ -35443,21 +35457,6 @@
     "is_guard": false
   },
   {
-    "fingerprint": "B7B68BF561714F795D32F7B6B8AAD37DDBE7EDAA",
-    "nickname": "HungarianBronkExit",
-    "address": "45.9.168.106:143",
-    "flags": [
-      "Exit",
-      "Fast",
-      "Running",
-      "V2Dir",
-      "Valid"
-    ],
-    "country": "hu",
-    "is_exit": true,
-    "is_guard": false
-  },
-  {
     "fingerprint": "B7C595B74E4ABF6AC2E02F411A8C3F19F38BB180",
     "nickname": "Aramis",
     "address": "45.138.16.230:9000",
@@ -35690,6 +35689,7 @@
       "Exit",
       "Fast",
       "Guard",
+      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -35908,7 +35908,6 @@
       "Exit",
       "Fast",
       "Running",
-      "Stable",
       "V2Dir",
       "Valid"
     ],
@@ -42929,21 +42928,6 @@
       "Valid"
     ],
     "country": "bz",
-    "is_exit": true,
-    "is_guard": false
-  },
-  {
-    "fingerprint": "DD283C45FA6952C0E174AE52959CB2AC0B00543F",
-    "nickname": "UnredactedXMR",
-    "address": "23.191.200.29:443",
-    "flags": [
-      "Exit",
-      "Fast",
-      "Running",
-      "V2Dir",
-      "Valid"
-    ],
-    "country": "us",
     "is_exit": true,
     "is_guard": false
   },
