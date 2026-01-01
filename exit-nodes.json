@@ -1578,6 +1578,7 @@
     "address": "216.9.225.157:9001",
     "flags": [
       "Exit",
+      "Fast",
       "Running",
       "V2Dir",
       "Valid"
@@ -8398,7 +8399,6 @@
       "Exit",
       "Fast",
       "Guard",
-      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -8599,7 +8599,6 @@
       "Exit",
       "Fast",
       "Running",
-      "Stable",
       "V2Dir",
       "Valid"
     ],
@@ -19364,6 +19363,20 @@
     "is_guard": true
   },
   {
+    "fingerprint": "617586B973AF37A39BC8C578A40109C53B99D277",
+    "nickname": "castelmagno",
+    "address": "64.190.76.14:9001",
+    "flags": [
+      "Exit",
+      "Running",
+      "V2Dir",
+      "Valid"
+    ],
+    "country": "it",
+    "is_exit": true,
+    "is_guard": false
+  },
+  {
     "fingerprint": "617C95FCF5F00E98E73E35A71C066ED20614F26D",
     "nickname": "FreeExit",
     "address": "179.43.159.194:9001",
@@ -21839,6 +21852,7 @@
     "flags": [
       "Exit",
       "Fast",
+      "Guard",
       "HSDir",
       "Running",
       "Stable",
@@ -21847,7 +21861,7 @@
     ],
     "country": "pl",
     "is_exit": true,
-    "is_guard": false
+    "is_guard": true
   },
   {
     "fingerprint": "6F9BBCB2A3AB5A1D11BD1871621433BAC8AD9107",
@@ -22960,20 +22974,6 @@
     "is_guard": true
   },
   {
-    "fingerprint": "76125656FF73689AC4B2AC3623AB86072DBC2307",
-    "nickname": "castelmagno",
-    "address": "64.190.76.14:9001",
-    "flags": [
-      "Exit",
-      "Running",
-      "V2Dir",
-      "Valid"
-    ],
-    "country": "it",
-    "is_exit": true,
-    "is_guard": false
-  },
-  {
     "fingerprint": "761F9AED15C9C8C781E177433CD91439E842ABD4",
     "nickname": "nenapini",
     "address": "23.129.64.169:443",
@@ -23155,6 +23155,7 @@
     "flags": [
       "Exit",
       "Fast",
+      "Guard",
       "HSDir",
       "Running",
       "Stable",
@@ -23163,7 +23164,7 @@
     ],
     "country": "pl",
     "is_exit": true,
-    "is_guard": false
+    "is_guard": true
   },
   {
     "fingerprint": "76D03662346B1CCEB11A7B8A1934C64092581F2E",
@@ -24167,6 +24168,21 @@
     "is_guard": true
   },
   {
+    "fingerprint": "7BE9E2EF2BB41BB662D9A3CD68289B9E3DBF8A08",
+    "nickname": "WYSWYG",
+    "address": "109.228.160.190:65535",
+    "flags": [
+      "Exit",
+      "Fast",
+      "Running",
+      "V2Dir",
+      "Valid"
+    ],
+    "country": "se",
+    "is_exit": true,
+    "is_guard": false
+  },
+  {
     "fingerprint": "7C0AA4E3B73E407E9F5FEB1912F8BE26D8AA124D",
     "nickname": "ibibUNC0",
     "address": "204.85.191.8:443",
@@ -25064,7 +25080,7 @@
   {
     "fingerprint": "80851B33CB0C6760EE0BCF72904F429158903C77",
     "nickname": "europeantgah",
-    "address": "198.167.206.204:9001",
+    "address": "198.167.206.149:9001",
     "flags": [
       "Exit",
       "Running",
@@ -30045,21 +30061,6 @@
     "is_guard": true
   },
   {
-    "fingerprint": "9B101EC8B34D5AC120F5114FB48FDBC87CFB9383",
-    "nickname": "BSDTorExit",
-    "address": "38.135.24.176:443",
-    "flags": [
-      "Exit",
-      "Fast",
-      "Running",
-      "V2Dir",
-      "Valid"
-    ],
-    "country": "us",
-    "is_exit": true,
-    "is_guard": false
-  },
-  {
     "fingerprint": "9B172F69B746C3B415E64B8E9DCEF791EDF0ADC5",
     "nickname": "NTH21R7",
     "address": "192.42.116.173:9006",
@@ -31284,7 +31285,6 @@
       "Exit",
       "Fast",
       "Guard",
-      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -38324,6 +38324,7 @@
       "Exit",
       "Fast",
       "Guard",
+      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -41146,6 +41147,7 @@
     "flags": [
       "Exit",
       "Fast",
+      "Guard",
       "HSDir",
       "Running",
       "Stable",
@@ -41154,7 +41156,7 @@
     ],
     "country": "pl",
     "is_exit": true,
-    "is_guard": false
+    "is_guard": true
   },
   {
     "fingerprint": "D58F516F5ED6636DAB0B6EEAA443E5EB2D26ACA7",
@@ -43533,6 +43535,7 @@
       "HSDir",
       "Running",
       "Stable",
+      "StaleDesc",
       "V2Dir",
       "Valid"
     ],
@@ -45257,7 +45260,6 @@
       "Exit",
       "Fast",
       "Guard",
-      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -47022,6 +47024,20 @@
     "country": "lu",
     "is_exit": true,
     "is_guard": true
+  },
+  {
+    "fingerprint": "F0D9CFAD9EAAD503EF9AD875873274AA0670009B",
+    "nickname": "XIRelay",
+    "address": "45.129.8.100:9001",
+    "flags": [
+      "Exit",
+      "Fast",
+      "Running",
+      "Valid"
+    ],
+    "country": "jp",
+    "is_exit": true,
+    "is_guard": false
   },
   {
     "fingerprint": "F140945C1C795A367B0ACC5F67741857B73FA4B2",
