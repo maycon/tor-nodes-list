@@ -3691,21 +3691,6 @@
     "is_guard": true
   },
   {
-    "fingerprint": "114D0851404015C0265F1F4D4BA6A5E1E970E15E",
-    "nickname": "UnredactedDrake",
-    "address": "23.191.200.6:443",
-    "flags": [
-      "Exit",
-      "Fast",
-      "Running",
-      "V2Dir",
-      "Valid"
-    ],
-    "country": "us",
-    "is_exit": true,
-    "is_guard": false
-  },
-  {
     "fingerprint": "1179667EF7EA283506A6D7E03EBAE4A99C408731",
     "nickname": "Quetzalcoatl",
     "address": "124.198.131.191:110",
@@ -8085,7 +8070,6 @@
     "flags": [
       "Exit",
       "Fast",
-      "Guard",
       "HSDir",
       "Running",
       "Stable",
@@ -8094,7 +8078,7 @@
     ],
     "country": "de",
     "is_exit": true,
-    "is_guard": true
+    "is_guard": false
   },
   {
     "fingerprint": "290EA9CBA843416CE3EC453069F1AE0CBE01A666",
@@ -17654,7 +17638,6 @@
       "BadExit",
       "Exit",
       "Fast",
-      "Guard",
       "HSDir",
       "Running",
       "Stable",
@@ -17663,7 +17646,7 @@
     ],
     "country": "us",
     "is_exit": true,
-    "is_guard": true
+    "is_guard": false
   },
   {
     "fingerprint": "59F2831A9BEB7AB3D5803445F946EA9FEEEFA217",
@@ -17966,6 +17949,7 @@
     "address": "38.135.25.140:9100",
     "flags": [
       "Exit",
+      "Fast",
       "Running",
       "V2Dir",
       "Valid"
@@ -21002,7 +20986,6 @@
       "Exit",
       "Fast",
       "Guard",
-      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -23369,6 +23352,7 @@
       "Exit",
       "Fast",
       "Guard",
+      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -32977,6 +32961,7 @@
       "Fast",
       "Running",
       "Stable",
+      "StaleDesc",
       "Valid"
     ],
     "country": "de",
@@ -49434,11 +49419,10 @@
   {
     "fingerprint": "FCFFB365207E97905DEB0B9656E68E45607E6FB6",
     "nickname": "Quetzalcoatl",
-    "address": "45.141.215.227:8430",
+    "address": "45.141.215.17:8430",
     "flags": [
       "Exit",
       "Fast",
-      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
