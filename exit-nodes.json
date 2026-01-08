@@ -2812,7 +2812,6 @@
       "Exit",
       "Fast",
       "Guard",
-      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -5393,7 +5392,6 @@
     "flags": [
       "Exit",
       "Fast",
-      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -9771,8 +9769,8 @@
   },
   {
     "fingerprint": "30E9BA6981D62F6226FF0A3E54B4AC6F07573D68",
-    "nickname": "FEVI01EXIT",
-    "address": "23.134.88.60:9001",
+    "nickname": "FEVI02EXIT",
+    "address": "23.134.88.61:9001",
     "flags": [
       "Exit",
       "Fast",
@@ -12128,21 +12126,6 @@
     "is_guard": true
   },
   {
-    "fingerprint": "3E4066785EECA6AB58F2238D2E996B0748A04240",
-    "nickname": "WepZone",
-    "address": "44.30.4.69:9964",
-    "flags": [
-      "Exit",
-      "Fast",
-      "Running",
-      "V2Dir",
-      "Valid"
-    ],
-    "country": "us",
-    "is_exit": true,
-    "is_guard": false
-  },
-  {
     "fingerprint": "3E561364485C83F57B2E28996DDEF5483D659A28",
     "nickname": "bonobo",
     "address": "23.129.64.224:443",
@@ -14344,6 +14327,20 @@
     "country": "se",
     "is_exit": true,
     "is_guard": true
+  },
+  {
+    "fingerprint": "48F164863CEBEC45B931A281FAF2CADAD4B1A1AD",
+    "nickname": "fumo",
+    "address": "92.119.165.108:443",
+    "flags": [
+      "Exit",
+      "Running",
+      "V2Dir",
+      "Valid"
+    ],
+    "country": "ch",
+    "is_exit": true,
+    "is_guard": false
   },
   {
     "fingerprint": "491B4E55B4FD4FDEC63B229B0A3E59868FCA1F1F",
@@ -26823,6 +26820,7 @@
       "Exit",
       "Fast",
       "Guard",
+      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -27056,6 +27054,7 @@
       "Exit",
       "Fast",
       "Running",
+      "StaleDesc",
       "V2Dir",
       "Valid"
     ],
@@ -31687,6 +31686,7 @@
     "flags": [
       "Exit",
       "Fast",
+      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -34434,24 +34434,6 @@
     "country": "nl",
     "is_exit": true,
     "is_guard": false
-  },
-  {
-    "fingerprint": "B09193EEDB3796EDA85DD1F9139B2C3865D48367",
-    "nickname": "NodescrapeExitAT1",
-    "address": "85.93.31.31:9001",
-    "flags": [
-      "Exit",
-      "Fast",
-      "Guard",
-      "HSDir",
-      "Running",
-      "Stable",
-      "V2Dir",
-      "Valid"
-    ],
-    "country": "at",
-    "is_exit": true,
-    "is_guard": true
   },
   {
     "fingerprint": "B09AB667E97470AAAA590077383A24437226A127",
@@ -44231,6 +44213,7 @@
       "Fast",
       "Running",
       "Stable",
+      "StaleDesc",
       "V2Dir",
       "Valid"
     ],
@@ -49415,6 +49398,7 @@
       "HSDir",
       "Running",
       "Stable",
+      "StaleDesc",
       "V2Dir",
       "Valid"
     ],
