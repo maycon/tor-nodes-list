@@ -2841,6 +2841,7 @@
       "Guard",
       "Running",
       "Stable",
+      "StaleDesc",
       "V2Dir",
       "Valid"
     ],
@@ -7993,15 +7994,13 @@
     "flags": [
       "Exit",
       "Fast",
-      "Guard",
       "Running",
-      "Stable",
       "V2Dir",
       "Valid"
     ],
     "country": "pl",
     "is_exit": true,
-    "is_guard": true
+    "is_guard": false
   },
   {
     "fingerprint": "27EA1422BEBD9589A4F5C6B858C9C8AD74573464",
@@ -17977,13 +17976,16 @@
     "flags": [
       "Exit",
       "Fast",
+      "Guard",
+      "HSDir",
       "Running",
+      "Stable",
       "V2Dir",
       "Valid"
     ],
     "country": "pl",
     "is_exit": true,
-    "is_guard": false
+    "is_guard": true
   },
   {
     "fingerprint": "59A5F150E4D670325CE55A56999FEA8FE2B3D887",
@@ -18366,7 +18368,6 @@
       "HSDir",
       "Running",
       "Stable",
-      "StaleDesc",
       "V2Dir",
       "Valid"
     ],
@@ -26560,6 +26561,7 @@
     "flags": [
       "Exit",
       "Fast",
+      "Guard",
       "Running",
       "Stable",
       "V2Dir",
@@ -26567,7 +26569,7 @@
     ],
     "country": "se",
     "is_exit": true,
-    "is_guard": false
+    "is_guard": true
   },
   {
     "fingerprint": "847B8B7C2A860225D5B1DBA01E4DB3CF1EFD7B20",
@@ -27241,21 +27243,6 @@
     "country": "fr",
     "is_exit": true,
     "is_guard": true
-  },
-  {
-    "fingerprint": "88C7705BD78718BEF28C61A2AF6641488321DE89",
-    "nickname": "yeewatertorexit",
-    "address": "38.225.209.82:9001",
-    "flags": [
-      "Exit",
-      "Fast",
-      "Running",
-      "StaleDesc",
-      "Valid"
-    ],
-    "country": "my",
-    "is_exit": true,
-    "is_guard": false
   },
   {
     "fingerprint": "88C8F99559FEEB7C29E2EB196AACD734390D6289",
@@ -33109,6 +33096,7 @@
       "HSDir",
       "Running",
       "Stable",
+      "StaleDesc",
       "V2Dir",
       "Valid"
     ],
