@@ -582,6 +582,7 @@
     "flags": [
       "Exit",
       "Fast",
+      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -4337,6 +4338,7 @@
       "Exit",
       "Fast",
       "Running",
+      "Stable",
       "V2Dir",
       "Valid"
     ],
@@ -5356,6 +5358,7 @@
       "Exit",
       "Fast",
       "Guard",
+      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -7082,7 +7085,9 @@
     "flags": [
       "Exit",
       "Fast",
+      "HSDir",
       "Running",
+      "Stable",
       "V2Dir",
       "Valid"
     ],
@@ -10006,7 +10011,6 @@
     "flags": [
       "Exit",
       "Fast",
-      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -10955,6 +10959,7 @@
       "Exit",
       "Fast",
       "Running",
+      "Stable",
       "V2Dir",
       "Valid"
     ],
@@ -20642,21 +20647,6 @@
     "is_guard": true
   },
   {
-    "fingerprint": "64CE119D87F0A28F31D74280FB9675D880CA4BFA",
-    "nickname": "ShinobiKenshin",
-    "address": "172.234.92.148:1984",
-    "flags": [
-      "Exit",
-      "Fast",
-      "Running",
-      "V2Dir",
-      "Valid"
-    ],
-    "country": "jp",
-    "is_exit": true,
-    "is_guard": false
-  },
-  {
     "fingerprint": "64D74AAA74F30DC2CFB36343CE5D4451B9A4DBA8",
     "nickname": "DFRI23",
     "address": "171.25.193.25:443",
@@ -21640,7 +21630,6 @@
       "Exit",
       "Fast",
       "Guard",
-      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -24361,7 +24350,6 @@
       "Exit",
       "Fast",
       "Running",
-      "StaleDesc",
       "V2Dir",
       "Valid"
     ],
@@ -26316,6 +26304,7 @@
     "flags": [
       "Exit",
       "Fast",
+      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -26364,6 +26353,7 @@
     "flags": [
       "Exit",
       "Fast",
+      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -26602,9 +26592,9 @@
     "nickname": "torexit4si",
     "address": "176.65.134.27:9001",
     "flags": [
+      "BadExit",
       "Exit",
       "Fast",
-      "Guard",
       "Running",
       "Stable",
       "V2Dir",
@@ -26612,7 +26602,7 @@
     ],
     "country": "si",
     "is_exit": true,
-    "is_guard": true
+    "is_guard": false
   },
   {
     "fingerprint": "838CA077BF260EF564442499CC60037EC0502684",
@@ -27677,7 +27667,6 @@
       "Exit",
       "Fast",
       "Guard",
-      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -28543,6 +28532,7 @@
     "nickname": "torexit5si",
     "address": "176.65.134.28:9001",
     "flags": [
+      "BadExit",
       "Exit",
       "Fast",
       "Running",
@@ -28946,6 +28936,7 @@
       "Exit",
       "Fast",
       "Running",
+      "Stable",
       "V2Dir",
       "Valid"
     ],
@@ -29151,6 +29142,7 @@
     "nickname": "torexit3si",
     "address": "176.65.134.24:9001",
     "flags": [
+      "BadExit",
       "Exit",
       "Fast",
       "Running",
@@ -29795,6 +29787,21 @@
     "country": "de",
     "is_exit": true,
     "is_guard": true
+  },
+  {
+    "fingerprint": "9489864F831668000BFEEAEE440DB25581275F4E",
+    "nickname": "JAEN",
+    "address": "172.104.182.84:9001",
+    "flags": [
+      "Exit",
+      "Fast",
+      "Running",
+      "V2Dir",
+      "Valid"
+    ],
+    "country": "sg",
+    "is_exit": true,
+    "is_guard": false
   },
   {
     "fingerprint": "948C3E8F4EF7D0E8EE19FADCED4ED287620B6FFA",
@@ -30461,6 +30468,7 @@
       "Exit",
       "Fast",
       "Running",
+      "Stable",
       "V2Dir",
       "Valid"
     ],
@@ -31090,6 +31098,7 @@
       "Exit",
       "Fast",
       "Running",
+      "Stable",
       "V2Dir",
       "Valid"
     ],
@@ -32913,7 +32922,9 @@
     "flags": [
       "Exit",
       "Fast",
+      "HSDir",
       "Running",
+      "Stable",
       "V2Dir",
       "Valid"
     ],
@@ -33595,7 +33606,6 @@
     "flags": [
       "Exit",
       "Fast",
-      "Guard",
       "HSDir",
       "Running",
       "Stable",
@@ -33604,7 +33614,7 @@
     ],
     "country": "sg",
     "is_exit": true,
-    "is_guard": true
+    "is_guard": false
   },
   {
     "fingerprint": "A637A7261E97502108E896570D0390E6D89D6865",
@@ -34417,7 +34427,9 @@
     "flags": [
       "Exit",
       "Fast",
+      "HSDir",
       "Running",
+      "Stable",
       "V2Dir",
       "Valid"
     ],
@@ -34733,7 +34745,6 @@
       "Guard",
       "Running",
       "Stable",
-      "StaleDesc",
       "V2Dir",
       "Valid"
     ],
@@ -34782,9 +34793,9 @@
     "nickname": "torexit1si",
     "address": "176.65.134.4:9001",
     "flags": [
+      "BadExit",
       "Exit",
       "Fast",
-      "Guard",
       "Running",
       "Stable",
       "V2Dir",
@@ -34792,7 +34803,7 @@
     ],
     "country": "si",
     "is_exit": true,
-    "is_guard": true
+    "is_guard": false
   },
   {
     "fingerprint": "AC9C91B182299EBD8F9A866FC9244CD9577799A7",
@@ -37257,6 +37268,7 @@
       "Exit",
       "Fast",
       "Running",
+      "Stable",
       "V2Dir",
       "Valid"
     ],
@@ -38649,7 +38661,6 @@
       "Exit",
       "Fast",
       "Guard",
-      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -39366,7 +39377,9 @@
     "flags": [
       "Exit",
       "Fast",
+      "HSDir",
       "Running",
+      "Stable",
       "V2Dir",
       "Valid"
     ],
@@ -39920,7 +39933,9 @@
     "flags": [
       "Exit",
       "Fast",
+      "HSDir",
       "Running",
+      "Stable",
       "V2Dir",
       "Valid"
     ],
@@ -40405,6 +40420,7 @@
     "nickname": "torexit2si",
     "address": "176.65.134.15:9001",
     "flags": [
+      "BadExit",
       "Exit",
       "Fast",
       "Running",
@@ -41843,6 +41859,7 @@
       "Exit",
       "Fast",
       "Running",
+      "Stable",
       "V2Dir",
       "Valid"
     ],
@@ -45899,7 +45916,6 @@
       "Exit",
       "Fast",
       "Guard",
-      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -47653,6 +47669,7 @@
     "flags": [
       "Exit",
       "Fast",
+      "Guard",
       "Running",
       "Stable",
       "V2Dir",
@@ -47660,7 +47677,7 @@
     ],
     "country": "ro",
     "is_exit": true,
-    "is_guard": false
+    "is_guard": true
   },
   {
     "fingerprint": "ECB3B4B74E91B0BC446215EB264479BDAE53E48C",
