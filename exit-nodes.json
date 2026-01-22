@@ -3835,6 +3835,7 @@
     "flags": [
       "Exit",
       "Fast",
+      "Guard",
       "HSDir",
       "Running",
       "Stable",
@@ -3843,7 +3844,7 @@
     ],
     "country": "de",
     "is_exit": true,
-    "is_guard": false
+    "is_guard": true
   },
   {
     "fingerprint": "1179667EF7EA283506A6D7E03EBAE4A99C408731",
@@ -7053,7 +7054,6 @@
       "Guard",
       "Running",
       "Stable",
-      "StaleDesc",
       "V2Dir",
       "Valid"
     ],
@@ -9968,8 +9968,8 @@
   },
   {
     "fingerprint": "30E9BA6981D62F6226FF0A3E54B4AC6F07573D68",
-    "nickname": "FEVI01EXIT",
-    "address": "23.134.88.60:9001",
+    "nickname": "FEVI02EXIT",
+    "address": "23.134.88.61:9001",
     "flags": [
       "Exit",
       "Fast",
@@ -11235,7 +11235,9 @@
     "flags": [
       "Exit",
       "Fast",
+      "HSDir",
       "Running",
+      "Stable",
       "V2Dir",
       "Valid"
     ],
@@ -14552,7 +14554,6 @@
       "Exit",
       "Fast",
       "Running",
-      "StaleDesc",
       "V2Dir",
       "Valid"
     ],
@@ -23904,13 +23905,15 @@
     "flags": [
       "Exit",
       "Fast",
+      "Guard",
       "Running",
+      "Stable",
       "V2Dir",
       "Valid"
     ],
     "country": "pl",
     "is_exit": true,
-    "is_guard": false
+    "is_guard": true
   },
   {
     "fingerprint": "768C50E197D3CBE256B30FE949603FD23112890B",
@@ -25651,24 +25654,6 @@
     "country": "nl",
     "is_exit": true,
     "is_guard": false
-  },
-  {
-    "fingerprint": "7F0541B21603F5D4A17A75C5326CEBC37E8E9D74",
-    "nickname": "DeafCitadel",
-    "address": "2.56.10.36:9100",
-    "flags": [
-      "Exit",
-      "Fast",
-      "Guard",
-      "HSDir",
-      "Running",
-      "Stable",
-      "V2Dir",
-      "Valid"
-    ],
-    "country": "nl",
-    "is_exit": true,
-    "is_guard": true
   },
   {
     "fingerprint": "7F24D28387CE8A397091897C5B9FE6F08638BDA3",
@@ -28026,7 +28011,6 @@
       "Guard",
       "Running",
       "Stable",
-      "StaleDesc",
       "V2Dir",
       "Valid"
     ],
@@ -33545,6 +33529,7 @@
       "Guard",
       "Running",
       "Stable",
+      "StaleDesc",
       "V2Dir",
       "Valid"
     ],
@@ -33824,6 +33809,21 @@
       "Valid"
     ],
     "country": "se",
+    "is_exit": true,
+    "is_guard": false
+  },
+  {
+    "fingerprint": "A6FFD101B96E86D95B4CCF1DB99D231BF7CD16CB",
+    "nickname": "UnredactedEllsberg",
+    "address": "23.191.200.5:443",
+    "flags": [
+      "Exit",
+      "Fast",
+      "Running",
+      "V2Dir",
+      "Valid"
+    ],
+    "country": "us",
     "is_exit": true,
     "is_guard": false
   },
@@ -36264,7 +36264,6 @@
       "HSDir",
       "Running",
       "Stable",
-      "StaleDesc",
       "V2Dir",
       "Valid"
     ],
