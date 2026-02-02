@@ -7508,6 +7508,7 @@
     "address": "82.221.139.190:9001",
     "flags": [
       "Exit",
+      "Fast",
       "Running",
       "Stable",
       "Valid"
@@ -13235,7 +13236,6 @@
       "HSDir",
       "Running",
       "Stable",
-      "StaleDesc",
       "V2Dir",
       "Valid"
     ],
@@ -17508,6 +17508,7 @@
     "address": "77.90.8.65:443",
     "flags": [
       "Exit",
+      "Fast",
       "Running",
       "Valid"
     ],
@@ -20221,20 +20222,6 @@
     "country": "us",
     "is_exit": true,
     "is_guard": true
-  },
-  {
-    "fingerprint": "655FD6EA5DD37B000B1F37C3D569B518ACC39978",
-    "nickname": "trapExitNode",
-    "address": "43.157.157.73:9001",
-    "flags": [
-      "Exit",
-      "Running",
-      "V2Dir",
-      "Valid"
-    ],
-    "country": "br",
-    "is_exit": true,
-    "is_guard": false
   },
   {
     "fingerprint": "6563497F3E2BE0E991C92347B631BE0EDD2AEDC7",
@@ -35913,13 +35900,15 @@
     "flags": [
       "Exit",
       "Fast",
+      "Guard",
       "Running",
+      "Stable",
       "V2Dir",
       "Valid"
     ],
     "country": "us",
     "is_exit": true,
-    "is_guard": false
+    "is_guard": true
   },
   {
     "fingerprint": "BA4F9BCCE212E42E3F7DC5F00717E994717F7E0A",
@@ -38438,21 +38427,6 @@
     "is_guard": true
   },
   {
-    "fingerprint": "C7A82B462EFEF44651C799CBD30621FE0F48A3EA",
-    "nickname": "UnredactedAssange",
-    "address": "23.191.200.4:443",
-    "flags": [
-      "Exit",
-      "Fast",
-      "Running",
-      "V2Dir",
-      "Valid"
-    ],
-    "country": "us",
-    "is_exit": true,
-    "is_guard": false
-  },
-  {
     "fingerprint": "C7BCD031AAC4A4C1F9106DAFD9C50F250B6C66E1",
     "nickname": "NTH9R5",
     "address": "192.42.116.199:9004",
@@ -38869,6 +38843,21 @@
       "Valid"
     ],
     "country": "at",
+    "is_exit": true,
+    "is_guard": false
+  },
+  {
+    "fingerprint": "C95A2CB440F382606D092A68BB7C3C36F1B73BBA",
+    "nickname": "shanoshema",
+    "address": "77.85.153.22:9001",
+    "flags": [
+      "Exit",
+      "Fast",
+      "Running",
+      "V2Dir",
+      "Valid"
+    ],
+    "country": "bg",
     "is_exit": true,
     "is_guard": false
   },
