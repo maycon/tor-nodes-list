@@ -629,6 +629,7 @@
       "Guard",
       "Running",
       "Stable",
+      "StaleDesc",
       "V2Dir",
       "Valid"
     ],
@@ -6557,7 +6558,6 @@
     "flags": [
       "Exit",
       "Fast",
-      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -8840,8 +8840,6 @@
     "address": "198.58.107.53:9001",
     "flags": [
       "Exit",
-      "Fast",
-      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -10191,6 +10189,7 @@
       "Exit",
       "Fast",
       "Guard",
+      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -10738,7 +10737,6 @@
       "Exit",
       "Fast",
       "Guard",
-      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -11007,13 +11005,15 @@
     "flags": [
       "Exit",
       "Fast",
+      "Guard",
       "Running",
+      "Stable",
       "V2Dir",
       "Valid"
     ],
     "country": "de",
     "is_exit": true,
-    "is_guard": false
+    "is_guard": true
   },
   {
     "fingerprint": "31EF78B9019D61CF259B223DB9F80940994EDA34",
@@ -26979,7 +26979,6 @@
       "Exit",
       "Fast",
       "Guard",
-      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -31233,7 +31232,6 @@
       "Exit",
       "Fast",
       "Guard",
-      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -36002,21 +36000,6 @@
     "is_guard": true
   },
   {
-    "fingerprint": "AA99692DC388840B3003F862AED9D6A0286534A2",
-    "nickname": "sartre2",
-    "address": "185.246.191.53:9002",
-    "flags": [
-      "Exit",
-      "Fast",
-      "Running",
-      "Stable",
-      "Valid"
-    ],
-    "country": "fi",
-    "is_exit": true,
-    "is_guard": false
-  },
-  {
     "fingerprint": "AAA2822835CE85D0C623134AFF01093947D73176",
     "nickname": "judoka",
     "address": "62.182.84.146:443",
@@ -39356,23 +39339,6 @@
     "country": "se",
     "is_exit": true,
     "is_guard": true
-  },
-  {
-    "fingerprint": "BDB0F71C8EB2572080D38F036E3EB33494500E9E",
-    "nickname": "forest08",
-    "address": "176.65.134.8:9001",
-    "flags": [
-      "Exit",
-      "Fast",
-      "HSDir",
-      "Running",
-      "Stable",
-      "V2Dir",
-      "Valid"
-    ],
-    "country": "de",
-    "is_exit": true,
-    "is_guard": false
   },
   {
     "fingerprint": "BDB975EFCBE795D8964A0A5C41ADDAFE00B873CC",
@@ -52059,7 +52025,6 @@
       "Exit",
       "Fast",
       "Guard",
-      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
