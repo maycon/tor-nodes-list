@@ -3571,23 +3571,6 @@
     "is_guard": false
   },
   {
-    "fingerprint": "147321EDE839D266601E65A7FAAD306749B1EEC5",
-    "nickname": "AlexGraywood",
-    "address": "165.73.242.163:443",
-    "flags": [
-      "Exit",
-      "Fast",
-      "Guard",
-      "Running",
-      "Stable",
-      "V2Dir",
-      "Valid"
-    ],
-    "country": "za",
-    "is_exit": true,
-    "is_guard": true
-  },
-  {
     "fingerprint": "147B1C6E1D4D874BB2949E90F807572265ACAFBE",
     "nickname": "NTH42R4",
     "address": "192.42.116.42:9003",
@@ -10012,6 +9995,7 @@
     "address": "45.142.141.134:9721",
     "flags": [
       "Exit",
+      "Fast",
       "Running",
       "Valid"
     ],
@@ -10573,6 +10557,21 @@
     "country": "us",
     "is_exit": true,
     "is_guard": true
+  },
+  {
+    "fingerprint": "3D6BEF575A77015F4B4BE54D8AA264BD217262CF",
+    "nickname": "SubNautico",
+    "address": "179.43.134.21:9001",
+    "flags": [
+      "BadExit",
+      "Exit",
+      "Running",
+      "V2Dir",
+      "Valid"
+    ],
+    "country": "ch",
+    "is_exit": true,
+    "is_guard": false
   },
   {
     "fingerprint": "3D7E18ABD7D9C7087708F9AAB87C29A8D3F40A46",
@@ -11286,6 +11285,7 @@
       "HSDir",
       "Running",
       "Stable",
+      "StaleDesc",
       "V2Dir",
       "Valid"
     ],
@@ -11933,13 +11933,16 @@
     "flags": [
       "Exit",
       "Fast",
+      "Guard",
+      "HSDir",
       "Running",
+      "Stable",
       "V2Dir",
       "Valid"
     ],
     "country": "bz",
     "is_exit": true,
-    "is_guard": false
+    "is_guard": true
   },
   {
     "fingerprint": "455F57910EC929041C60E4311E2635298BDCD604",
@@ -12275,6 +12278,7 @@
       "Exit",
       "Fast",
       "Running",
+      "Stable",
       "V2Dir",
       "Valid"
     ],
@@ -27882,6 +27886,7 @@
     "flags": [
       "Exit",
       "Fast",
+      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -32134,7 +32139,6 @@
       "Exit",
       "Fast",
       "Guard",
-      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -39498,7 +39502,9 @@
     "flags": [
       "Exit",
       "Fast",
+      "HSDir",
       "Running",
+      "Stable",
       "V2Dir",
       "Valid"
     ],
@@ -42324,20 +42330,6 @@
       "Valid"
     ],
     "country": "at",
-    "is_exit": true,
-    "is_guard": false
-  },
-  {
-    "fingerprint": "F5230229F2FC2BF516D8FA498D75160596DB4ABA",
-    "nickname": "TV4320",
-    "address": "118.200.60.243:9001",
-    "flags": [
-      "Exit",
-      "Running",
-      "V2Dir",
-      "Valid"
-    ],
-    "country": "sg",
     "is_exit": true,
     "is_guard": false
   },
