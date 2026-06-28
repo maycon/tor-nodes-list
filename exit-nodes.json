@@ -102,6 +102,7 @@
     "flags": [
       "Exit",
       "Fast",
+      "Guard",
       "HSDir",
       "Running",
       "Stable",
@@ -110,7 +111,7 @@
     ],
     "country": "us",
     "is_exit": true,
-    "is_guard": false
+    "is_guard": true
   },
   {
     "fingerprint": "0061D22AFD1F06D4E6F35006BD3D9C21D7981EA9",
@@ -1453,6 +1454,7 @@
       "Fast",
       "Running",
       "Stable",
+      "StaleDesc",
       "V2Dir",
       "Valid"
     ],
@@ -2502,6 +2504,7 @@
       "Guard",
       "Running",
       "Stable",
+      "StaleDesc",
       "V2Dir",
       "Valid"
     ],
@@ -2592,6 +2595,24 @@
     "country": "nl",
     "is_exit": true,
     "is_guard": false
+  },
+  {
+    "fingerprint": "0F938542D1C783D3DC0CB78CA53877290D9FB211",
+    "nickname": "ywaifir",
+    "address": "212.95.50.77:443",
+    "flags": [
+      "Exit",
+      "Fast",
+      "Guard",
+      "HSDir",
+      "Running",
+      "Stable",
+      "V2Dir",
+      "Valid"
+    ],
+    "country": "de",
+    "is_exit": true,
+    "is_guard": true
   },
   {
     "fingerprint": "0F9B0578EF83557FFC109D6DE7EB00B7FBB1F908",
@@ -4890,7 +4911,6 @@
       "HSDir",
       "Running",
       "Stable",
-      "StaleDesc",
       "V2Dir",
       "Valid"
     ],
@@ -6575,24 +6595,6 @@
       "Valid"
     ],
     "country": "za",
-    "is_exit": true,
-    "is_guard": true
-  },
-  {
-    "fingerprint": "26C28F29B611DF4DE23ACF5D9DC1EB4895EF5E8B",
-    "nickname": "artikel5ev4",
-    "address": "87.118.116.103:443",
-    "flags": [
-      "Exit",
-      "Fast",
-      "Guard",
-      "HSDir",
-      "Running",
-      "Stable",
-      "V2Dir",
-      "Valid"
-    ],
-    "country": "de",
     "is_exit": true,
     "is_guard": true
   },
@@ -11639,6 +11641,23 @@
     "is_guard": true
   },
   {
+    "fingerprint": "4780749994B23557F74586BA128B4DC01A546676",
+    "nickname": "mordel",
+    "address": "71.19.144.106:9001",
+    "flags": [
+      "Exit",
+      "Fast",
+      "Guard",
+      "Running",
+      "Stable",
+      "V2Dir",
+      "Valid"
+    ],
+    "country": "us",
+    "is_exit": true,
+    "is_guard": true
+  },
+  {
     "fingerprint": "4786BEB8D9152472EE32CFB31458D68A06528ABA",
     "nickname": "DFRI80",
     "address": "171.25.193.39:80",
@@ -13671,21 +13690,6 @@
       "Valid"
     ],
     "country": "at",
-    "is_exit": true,
-    "is_guard": false
-  },
-  {
-    "fingerprint": "54FAC042C6F2FDEB449DD5B9EDE6833D155C538B",
-    "nickname": "Lyle",
-    "address": "91.219.236.101:443",
-    "flags": [
-      "Exit",
-      "Fast",
-      "Running",
-      "V2Dir",
-      "Valid"
-    ],
-    "country": "hu",
     "is_exit": true,
     "is_guard": false
   },
@@ -17279,6 +17283,7 @@
     "flags": [
       "Exit",
       "Fast",
+      "Guard",
       "Running",
       "Stable",
       "V2Dir",
@@ -17286,7 +17291,7 @@
     ],
     "country": "us",
     "is_exit": true,
-    "is_guard": false
+    "is_guard": true
   },
   {
     "fingerprint": "67037BC9FEA6251A1E6542433564EA297E64DC9F",
@@ -19479,7 +19484,6 @@
       "Exit",
       "Fast",
       "Running",
-      "StaleDesc",
       "V2Dir",
       "Valid"
     ],
@@ -19983,13 +19987,15 @@
     "flags": [
       "Exit",
       "Fast",
+      "Guard",
       "Running",
+      "Stable",
       "V2Dir",
       "Valid"
     ],
     "country": "lu",
     "is_exit": true,
-    "is_guard": false
+    "is_guard": true
   },
   {
     "fingerprint": "7860F0AD272C7045A27C67CD215D467D8E679F45",
@@ -24946,21 +24952,6 @@
     "is_guard": false
   },
   {
-    "fingerprint": "969F1D67A2115F571D31EFF9F3832829ED7C9C05",
-    "nickname": "Blanche",
-    "address": "198.98.48.33:443",
-    "flags": [
-      "Exit",
-      "Fast",
-      "Running",
-      "V2Dir",
-      "Valid"
-    ],
-    "country": "us",
-    "is_exit": true,
-    "is_guard": false
-  },
-  {
     "fingerprint": "96B7E4A8F633FC105AF6032D13211E5D576A44D9",
     "nickname": "Quetzalcoatl",
     "address": "188.68.52.231:9000",
@@ -27394,24 +27385,6 @@
     "is_guard": true
   },
   {
-    "fingerprint": "A594FDA26BD3C74C22DA74B5A078BAEB085AD481",
-    "nickname": "0xdeadbeef",
-    "address": "51.38.225.46:443",
-    "flags": [
-      "Exit",
-      "Fast",
-      "Guard",
-      "HSDir",
-      "Running",
-      "Stable",
-      "V2Dir",
-      "Valid"
-    ],
-    "country": "fr",
-    "is_exit": true,
-    "is_guard": true
-  },
-  {
     "fingerprint": "A5AEBB58BD8E17F74DEC3F6F8B8ACF410A8B1A9A",
     "nickname": "berenstainbears",
     "address": "179.43.182.58:9001",
@@ -27607,24 +27580,6 @@
     "country": "nl",
     "is_exit": true,
     "is_guard": false
-  },
-  {
-    "fingerprint": "A6449B55660FA7F89E82FC6FD544194E2638D88D",
-    "nickname": "torexitams05",
-    "address": "45.66.35.25:1984",
-    "flags": [
-      "Exit",
-      "Fast",
-      "Guard",
-      "HSDir",
-      "Running",
-      "Stable",
-      "V2Dir",
-      "Valid"
-    ],
-    "country": "nl",
-    "is_exit": true,
-    "is_guard": true
   },
   {
     "fingerprint": "A653492FE3D876B954E945D7027B87F0CAECF9B7",
@@ -32972,6 +32927,7 @@
       "Exit",
       "Fast",
       "Guard",
+      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -34366,8 +34322,6 @@
     "flags": [
       "Exit",
       "Fast",
-      "Guard",
-      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -34375,7 +34329,7 @@
     ],
     "country": "lu",
     "is_exit": true,
-    "is_guard": true
+    "is_guard": false
   },
   {
     "fingerprint": "D16D19ED2A8570242708BDABFDFCD7B9E484C8B0",
@@ -36886,7 +36840,6 @@
       "Exit",
       "Fast",
       "Guard",
-      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -37400,7 +37353,6 @@
       "Exit",
       "Fast",
       "Guard",
-      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -37452,6 +37404,7 @@
     "flags": [
       "Exit",
       "Fast",
+      "Guard",
       "HSDir",
       "Running",
       "Stable",
@@ -37460,7 +37413,7 @@
     ],
     "country": "us",
     "is_exit": true,
-    "is_guard": false
+    "is_guard": true
   },
   {
     "fingerprint": "E3DB2E354B883B59E8DC56B3E7A353DDFD457812",
