@@ -93,6 +93,7 @@
       "Exit",
       "Fast",
       "Guard",
+      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -688,16 +689,13 @@
     "flags": [
       "Exit",
       "Fast",
-      "Guard",
-      "HSDir",
       "Running",
-      "Stable",
       "V2Dir",
       "Valid"
     ],
     "country": "us",
     "is_exit": true,
-    "is_guard": true
+    "is_guard": false
   },
   {
     "fingerprint": "03663A58EB7D30BEF0A724337E944BA81A50F258",
@@ -915,7 +913,6 @@
       "Exit",
       "Fast",
       "Guard",
-      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -2250,16 +2247,13 @@
     "flags": [
       "Exit",
       "Fast",
-      "Guard",
-      "HSDir",
       "Running",
-      "Stable",
       "V2Dir",
       "Valid"
     ],
     "country": "us",
     "is_exit": true,
-    "is_guard": true
+    "is_guard": false
   },
   {
     "fingerprint": "0D39909B37AAC2BC742305EE72DF1F0FD187D4EE",
@@ -2284,6 +2278,7 @@
       "Exit",
       "Fast",
       "Guard",
+      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -2694,13 +2689,16 @@
     "flags": [
       "Exit",
       "Fast",
+      "Guard",
+      "HSDir",
       "Running",
+      "Stable",
       "V2Dir",
       "Valid"
     ],
     "country": "de",
     "is_exit": true,
-    "is_guard": false
+    "is_guard": true
   },
   {
     "fingerprint": "0F9B0578EF83557FFC109D6DE7EB00B7FBB1F908",
@@ -2740,6 +2738,7 @@
       "Exit",
       "Fast",
       "Guard",
+      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -2989,6 +2988,7 @@
       "Exit",
       "Fast",
       "Guard",
+      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -3133,6 +3133,7 @@
       "Exit",
       "Fast",
       "Guard",
+      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -3745,7 +3746,6 @@
       "Exit",
       "Fast",
       "Guard",
-      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -4027,6 +4027,23 @@
     "is_guard": true
   },
   {
+    "fingerprint": "16E09CB06617A7215885B6C7C8436B1F8D07960F",
+    "nickname": "marcuse10",
+    "address": "178.20.55.182:9001",
+    "flags": [
+      "Exit",
+      "Fast",
+      "Guard",
+      "Running",
+      "Stable",
+      "V2Dir",
+      "Valid"
+    ],
+    "country": "fr",
+    "is_exit": true,
+    "is_guard": true
+  },
+  {
     "fingerprint": "170F02750E248EA2FCF9E14AFA5A9F717D734CDF",
     "nickname": "NTH19R6",
     "address": "192.42.116.19:9005",
@@ -4137,6 +4154,7 @@
     "address": "89.58.26.216:110",
     "flags": [
       "Exit",
+      "Fast",
       "Running",
       "V2Dir",
       "Valid"
@@ -4871,6 +4889,7 @@
       "Exit",
       "Fast",
       "Guard",
+      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -6355,6 +6374,7 @@
     "address": "89.58.26.216:7100",
     "flags": [
       "Exit",
+      "Fast",
       "Running",
       "V2Dir",
       "Valid"
@@ -6895,7 +6915,6 @@
       "Guard",
       "Running",
       "Stable",
-      "StaleDesc",
       "V2Dir",
       "Valid"
     ],
@@ -7224,6 +7243,7 @@
       "Exit",
       "Fast",
       "Guard",
+      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -7393,6 +7413,21 @@
     "country": "us",
     "is_exit": true,
     "is_guard": true
+  },
+  {
+    "fingerprint": "2ACD6E9FF8726CC04375D5871498D07B36748158",
+    "nickname": "Magalie",
+    "address": "102.130.117.167:443",
+    "flags": [
+      "Exit",
+      "Fast",
+      "Running",
+      "V2Dir",
+      "Valid"
+    ],
+    "country": "za",
+    "is_exit": true,
+    "is_guard": false
   },
   {
     "fingerprint": "2ACEF7D235895CD6108B75C81601F17C5504498D",
@@ -8979,6 +9014,35 @@
     "is_guard": true
   },
   {
+    "fingerprint": "3407C5CF6A78BA476BF17AE20635F4B22A00CB17",
+    "nickname": "mathewson",
+    "address": "23.129.64.163:443",
+    "flags": [
+      "Exit",
+      "Fast",
+      "Running",
+      "V2Dir",
+      "Valid"
+    ],
+    "country": "us",
+    "is_exit": true,
+    "is_guard": false
+  },
+  {
+    "fingerprint": "344E5D32193B1A1308EE344ACF10CA145A2D693C",
+    "nickname": "Quetzalcoatl",
+    "address": "185.183.157.214:9000",
+    "flags": [
+      "Exit",
+      "Running",
+      "V2Dir",
+      "Valid"
+    ],
+    "country": "de",
+    "is_exit": true,
+    "is_guard": false
+  },
+  {
     "fingerprint": "346F72D3C67467ADFA427D09A6F234D93153D594",
     "nickname": "mentoreth17",
     "address": "5.2.69.85:9002",
@@ -9015,6 +9079,7 @@
       "Exit",
       "Fast",
       "Running",
+      "Stable",
       "V2Dir",
       "Valid"
     ],
@@ -9045,6 +9110,7 @@
       "Exit",
       "Fast",
       "Guard",
+      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -9077,7 +9143,6 @@
       "Exit",
       "Fast",
       "Guard",
-      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -9086,23 +9151,6 @@
     "country": "no",
     "is_exit": true,
     "is_guard": true
-  },
-  {
-    "fingerprint": "35B503FB546815CC9EDE91022555B5D0ED04E389",
-    "nickname": "Digitalcourage4ip3b",
-    "address": "185.220.101.106:993",
-    "flags": [
-      "Exit",
-      "Fast",
-      "HSDir",
-      "Running",
-      "Stable",
-      "V2Dir",
-      "Valid"
-    ],
-    "country": "de",
-    "is_exit": true,
-    "is_guard": false
   },
   {
     "fingerprint": "35CFD5DC26709E8758337AACD50893E13630FA01",
@@ -10867,7 +10915,6 @@
       "Exit",
       "Fast",
       "Guard",
-      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -10915,6 +10962,7 @@
       "Exit",
       "Fast",
       "Guard",
+      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -10948,16 +10996,13 @@
     "flags": [
       "Exit",
       "Fast",
-      "Guard",
-      "HSDir",
       "Running",
-      "Stable",
       "V2Dir",
       "Valid"
     ],
     "country": "bg",
     "is_exit": true,
-    "is_guard": true
+    "is_guard": false
   },
   {
     "fingerprint": "41BA8DD5A2F2261CFFDCEF4AED56B316B7E2F1B7",
@@ -11829,16 +11874,13 @@
     "flags": [
       "Exit",
       "Fast",
-      "Guard",
-      "HSDir",
       "Running",
-      "Stable",
       "V2Dir",
       "Valid"
     ],
     "country": "us",
     "is_exit": true,
-    "is_guard": true
+    "is_guard": false
   },
   {
     "fingerprint": "46CBD0EB08DFA531533358D470D83081D6BE83ED",
@@ -12163,9 +12205,7 @@
     "flags": [
       "Exit",
       "Fast",
-      "HSDir",
       "Running",
-      "Stable",
       "V2Dir",
       "Valid"
     ],
@@ -13171,6 +13211,7 @@
       "Exit",
       "Fast",
       "Guard",
+      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -13186,6 +13227,7 @@
     "address": "45.61.188.15:9001",
     "flags": [
       "Exit",
+      "Fast",
       "Running",
       "V2Dir",
       "Valid"
@@ -13473,7 +13515,6 @@
       "Exit",
       "Fast",
       "Guard",
-      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -13540,6 +13581,7 @@
       "Exit",
       "Fast",
       "Running",
+      "Stable",
       "V2Dir",
       "Valid"
     ],
@@ -14436,16 +14478,13 @@
     "flags": [
       "Exit",
       "Fast",
-      "Guard",
-      "HSDir",
       "Running",
-      "Stable",
       "V2Dir",
       "Valid"
     ],
     "country": "us",
     "is_exit": true,
-    "is_guard": true
+    "is_guard": false
   },
   {
     "fingerprint": "55D1B291B1968152749923F514E7BA6014BFADDD",
@@ -14484,13 +14523,15 @@
     "flags": [
       "Exit",
       "Fast",
+      "Guard",
       "Running",
+      "Stable",
       "V2Dir",
       "Valid"
     ],
     "country": "de",
     "is_exit": true,
-    "is_guard": false
+    "is_guard": true
   },
   {
     "fingerprint": "5649CB2158DA94FB747415F26628BEC07FA57616",
@@ -14531,16 +14572,13 @@
     "flags": [
       "Exit",
       "Fast",
-      "Guard",
-      "HSDir",
       "Running",
-      "Stable",
       "V2Dir",
       "Valid"
     ],
     "country": "no",
     "is_exit": true,
-    "is_guard": true
+    "is_guard": false
   },
   {
     "fingerprint": "56AFADB4E50555264EEA91080CC7732739688378",
@@ -15374,6 +15412,7 @@
       "HSDir",
       "Running",
       "Stable",
+      "StaleDesc",
       "V2Dir",
       "Valid"
     ],
@@ -16314,13 +16353,15 @@
     "flags": [
       "Exit",
       "Fast",
+      "Guard",
       "Running",
+      "Stable",
       "V2Dir",
       "Valid"
     ],
     "country": "us",
     "is_exit": true,
-    "is_guard": false
+    "is_guard": true
   },
   {
     "fingerprint": "6012069CA4DE5780EB9A0518F15A58A274FE6F38",
@@ -16431,6 +16472,7 @@
       "Exit",
       "Fast",
       "Running",
+      "Stable",
       "V2Dir",
       "Valid"
     ],
@@ -16829,6 +16871,7 @@
       "Exit",
       "Fast",
       "Guard",
+      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -17890,7 +17933,6 @@
       "Exit",
       "Fast",
       "Running",
-      "StaleDesc",
       "V2Dir",
       "Valid"
     ],
@@ -18040,9 +18082,7 @@
     "flags": [
       "Exit",
       "Fast",
-      "HSDir",
       "Running",
-      "Stable",
       "V2Dir",
       "Valid"
     ],
@@ -18173,6 +18213,23 @@
     "country": "nl",
     "is_exit": true,
     "is_guard": false
+  },
+  {
+    "fingerprint": "6A589A73BE4DB0D78CFDC7746F288875CC5C86F1",
+    "nickname": "Quintex362",
+    "address": "204.8.96.151:446",
+    "flags": [
+      "Exit",
+      "Fast",
+      "Guard",
+      "Running",
+      "Stable",
+      "V2Dir",
+      "Valid"
+    ],
+    "country": "us",
+    "is_exit": true,
+    "is_guard": true
   },
   {
     "fingerprint": "6A5E70DE22BA452E97AF91FE5AB97A1508AA059F",
@@ -18963,7 +19020,6 @@
       "Exit",
       "Fast",
       "Guard",
-      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -19535,6 +19591,23 @@
     "is_guard": false
   },
   {
+    "fingerprint": "730474AF35FC417A51B475BC1E4C1AC35915C0AC",
+    "nickname": "DFRI59",
+    "address": "171.25.193.36:9050",
+    "flags": [
+      "Exit",
+      "Fast",
+      "Guard",
+      "Running",
+      "Stable",
+      "V2Dir",
+      "Valid"
+    ],
+    "country": "se",
+    "is_exit": true,
+    "is_guard": true
+  },
+  {
     "fingerprint": "732039D35B9EB80CABBFEA24FDBD3904CB739877",
     "nickname": "DFRI64",
     "address": "171.25.193.37:80",
@@ -20069,16 +20142,13 @@
     "flags": [
       "Exit",
       "Fast",
-      "Guard",
-      "HSDir",
       "Running",
-      "Stable",
       "V2Dir",
       "Valid"
     ],
     "country": "us",
     "is_exit": true,
-    "is_guard": true
+    "is_guard": false
   },
   {
     "fingerprint": "766A620BD623D7615BD30A1B33CF671D6703D7A4",
@@ -20355,6 +20425,7 @@
       "Exit",
       "Fast",
       "Running",
+      "Stable",
       "V2Dir",
       "Valid"
     ],
@@ -20786,16 +20857,13 @@
     "flags": [
       "Exit",
       "Fast",
-      "Guard",
-      "HSDir",
       "Running",
-      "Stable",
       "V2Dir",
       "Valid"
     ],
     "country": "us",
     "is_exit": true,
-    "is_guard": true
+    "is_guard": false
   },
   {
     "fingerprint": "7AFC157269130BCF36BCCAC0F2DAA0685E70D40D",
@@ -21190,6 +21258,7 @@
     "flags": [
       "Exit",
       "Fast",
+      "Guard",
       "Running",
       "Stable",
       "V2Dir",
@@ -21197,7 +21266,7 @@
     ],
     "country": "se",
     "is_exit": true,
-    "is_guard": false
+    "is_guard": true
   },
   {
     "fingerprint": "7D33FC2D047493C6A514F5A4C1D70FCA54EA55DD",
@@ -21825,7 +21894,7 @@
   {
     "fingerprint": "80851B33CB0C6760EE0BCF72904F429158903C77",
     "nickname": "europeantgah",
-    "address": "198.167.206.135:9001",
+    "address": "198.167.206.171:9001",
     "flags": [
       "Exit",
       "Running",
@@ -21876,6 +21945,7 @@
       "Exit",
       "Fast",
       "Guard",
+      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -22318,6 +22388,7 @@
     "flags": [
       "Exit",
       "Fast",
+      "Guard",
       "Running",
       "Stable",
       "V2Dir",
@@ -22325,7 +22396,7 @@
     ],
     "country": "hk",
     "is_exit": true,
-    "is_guard": false
+    "is_guard": true
   },
   {
     "fingerprint": "834CED8A6DB537903B8BC933FE5BC8F74FED6C04",
@@ -22497,7 +22568,6 @@
       "Fast",
       "Running",
       "Stable",
-      "StaleDesc",
       "V2Dir",
       "Valid"
     ],
@@ -22963,13 +23033,15 @@
     "flags": [
       "Exit",
       "Fast",
+      "Guard",
       "Running",
+      "Stable",
       "V2Dir",
       "Valid"
     ],
     "country": "us",
     "is_exit": true,
-    "is_guard": false
+    "is_guard": true
   },
   {
     "fingerprint": "86B488B7F4FAE8DC2FEF2B801728254E2B442447",
@@ -23027,13 +23099,15 @@
     "flags": [
       "Exit",
       "Fast",
+      "Guard",
       "Running",
+      "Stable",
       "V2Dir",
       "Valid"
     ],
     "country": "se",
     "is_exit": true,
-    "is_guard": false
+    "is_guard": true
   },
   {
     "fingerprint": "872BE4C147B7071C248D32EFF561D7468AC94A82",
@@ -23094,6 +23168,7 @@
       "Exit",
       "Fast",
       "Running",
+      "Stable",
       "V2Dir",
       "Valid"
     ],
@@ -23322,6 +23397,7 @@
     "flags": [
       "Exit",
       "Fast",
+      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -23906,6 +23982,7 @@
       "Exit",
       "Fast",
       "Guard",
+      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -24089,6 +24166,23 @@
       "Valid"
     ],
     "country": "us",
+    "is_exit": true,
+    "is_guard": true
+  },
+  {
+    "fingerprint": "8CDF4A75AE7631A015E020CFF9DCE9536CE4C56B",
+    "nickname": "ForPrivacyNET",
+    "address": "185.220.101.55:10055",
+    "flags": [
+      "Exit",
+      "Fast",
+      "Guard",
+      "Running",
+      "Stable",
+      "V2Dir",
+      "Valid"
+    ],
+    "country": "de",
     "is_exit": true,
     "is_guard": true
   },
@@ -24393,7 +24487,6 @@
       "Exit",
       "Fast",
       "Guard",
-      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -24441,6 +24534,7 @@
       "Exit",
       "Fast",
       "Guard",
+      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -24761,6 +24855,7 @@
       "Exit",
       "Fast",
       "Guard",
+      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -24890,7 +24985,6 @@
       "Exit",
       "Fast",
       "Guard",
-      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -24984,9 +25078,7 @@
     "flags": [
       "Exit",
       "Fast",
-      "HSDir",
       "Running",
-      "Stable",
       "V2Dir",
       "Valid"
     ],
@@ -25356,16 +25448,13 @@
     "flags": [
       "Exit",
       "Fast",
-      "Guard",
-      "HSDir",
       "Running",
-      "Stable",
       "V2Dir",
       "Valid"
     ],
     "country": "us",
     "is_exit": true,
-    "is_guard": true
+    "is_guard": false
   },
   {
     "fingerprint": "940E1CDEF915CC88B524D34089C8F9764CA9822E",
@@ -26659,7 +26748,6 @@
     "flags": [
       "Exit",
       "Fast",
-      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -27196,7 +27284,6 @@
       "Exit",
       "Fast",
       "Running",
-      "StaleDesc",
       "V2Dir",
       "Valid"
     ],
@@ -27671,6 +27758,7 @@
       "Exit",
       "Fast",
       "Guard",
+      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -27722,6 +27810,7 @@
       "Exit",
       "Fast",
       "Guard",
+      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -28050,24 +28139,6 @@
     "is_guard": true
   },
   {
-    "fingerprint": "A257C2527511A647E87B6B4B47D0D2B14468D166",
-    "nickname": "Quintex117",
-    "address": "204.8.96.107:444",
-    "flags": [
-      "Exit",
-      "Fast",
-      "Guard",
-      "HSDir",
-      "Running",
-      "Stable",
-      "V2Dir",
-      "Valid"
-    ],
-    "country": "us",
-    "is_exit": true,
-    "is_guard": true
-  },
-  {
     "fingerprint": "A2A58542E149EE2C92526C70111C1DCC95AC4D88",
     "nickname": "NTH104R5",
     "address": "192.42.116.104:9004",
@@ -28137,7 +28208,6 @@
     "flags": [
       "Exit",
       "Fast",
-      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -29085,6 +29155,38 @@
     "is_guard": true
   },
   {
+    "fingerprint": "A8BE7C1F596C5DAD1762F40E745C532EE7C51F06",
+    "nickname": "KoopaArmy",
+    "address": "123.253.35.32:443",
+    "flags": [
+      "Exit",
+      "Fast",
+      "Running",
+      "Stable",
+      "Valid"
+    ],
+    "country": "my",
+    "is_exit": true,
+    "is_guard": false
+  },
+  {
+    "fingerprint": "A8BEB150F4BAD51BC6309ED93BFD40022A72A618",
+    "nickname": "Quintex88",
+    "address": "204.8.96.177:443",
+    "flags": [
+      "Exit",
+      "Fast",
+      "Guard",
+      "Running",
+      "Stable",
+      "V2Dir",
+      "Valid"
+    ],
+    "country": "us",
+    "is_exit": true,
+    "is_guard": true
+  },
+  {
     "fingerprint": "A8DAA6995B4CBD22193D61D5EA8CCDA52B63A066",
     "nickname": "Quintex485",
     "address": "204.8.96.174:447",
@@ -29314,7 +29416,6 @@
       "Exit",
       "Fast",
       "Running",
-      "StaleDesc",
       "V2Dir",
       "Valid"
     ],
@@ -29377,7 +29478,6 @@
       "Exit",
       "Fast",
       "Guard",
-      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -30524,6 +30624,7 @@
     "address": "89.58.26.216:9000",
     "flags": [
       "Exit",
+      "Fast",
       "Running",
       "V2Dir",
       "Valid"
@@ -30928,6 +31029,23 @@
       "Valid"
     ],
     "country": "nl",
+    "is_exit": true,
+    "is_guard": true
+  },
+  {
+    "fingerprint": "B5BAD8A0112DE75B6B3E8CB84C67CBD33EB08BF5",
+    "nickname": "Quintex127",
+    "address": "204.8.96.80:444",
+    "flags": [
+      "Exit",
+      "Fast",
+      "Guard",
+      "Running",
+      "Stable",
+      "V2Dir",
+      "Valid"
+    ],
+    "country": "us",
     "is_exit": true,
     "is_guard": true
   },
@@ -32194,6 +32312,23 @@
     "is_guard": false
   },
   {
+    "fingerprint": "BE17679B304E5C4BB053673D8D57F9791649C94B",
+    "nickname": "DFRI45",
+    "address": "171.25.193.35:444",
+    "flags": [
+      "Exit",
+      "Fast",
+      "Guard",
+      "Running",
+      "Stable",
+      "V2Dir",
+      "Valid"
+    ],
+    "country": "se",
+    "is_exit": true,
+    "is_guard": true
+  },
+  {
     "fingerprint": "BE520F7DE66EE43754B4E3C72E7031D591FF0257",
     "nickname": "DFRI29",
     "address": "171.25.193.77:444",
@@ -33019,7 +33154,6 @@
       "Exit",
       "Fast",
       "Guard",
-      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -33465,7 +33599,6 @@
     "flags": [
       "Exit",
       "Fast",
-      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -34322,6 +34455,7 @@
       "Exit",
       "Fast",
       "Guard",
+      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -34354,6 +34488,7 @@
       "Exit",
       "Fast",
       "Running",
+      "Stable",
       "V2Dir",
       "Valid"
     ],
@@ -35083,7 +35218,6 @@
       "Fast",
       "Running",
       "Stable",
-      "StaleDesc",
       "Valid"
     ],
     "country": "nl",
@@ -35432,9 +35566,7 @@
     "flags": [
       "Exit",
       "Fast",
-      "HSDir",
       "Running",
-      "Stable",
       "V2Dir",
       "Valid"
     ],
@@ -35633,6 +35765,23 @@
     "is_guard": false
   },
   {
+    "fingerprint": "D0FC21D1139403F88F4BED8B7834EF4B2DF12D27",
+    "nickname": "Quintex527",
+    "address": "204.8.96.80:448",
+    "flags": [
+      "Exit",
+      "Fast",
+      "Guard",
+      "Running",
+      "Stable",
+      "V2Dir",
+      "Valid"
+    ],
+    "country": "us",
+    "is_exit": true,
+    "is_guard": true
+  },
+  {
     "fingerprint": "D106DE8FDD9B36BCB63CB1674FE153335F1AD6A6",
     "nickname": "NTH56R6",
     "address": "192.42.116.56:9005",
@@ -35716,7 +35865,6 @@
     "flags": [
       "Exit",
       "Fast",
-      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -36163,7 +36311,6 @@
       "Exit",
       "Fast",
       "Guard",
-      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -36637,6 +36784,7 @@
     "address": "89.58.26.216:7430",
     "flags": [
       "Exit",
+      "Fast",
       "Running",
       "V2Dir",
       "Valid"
@@ -38125,6 +38273,7 @@
       "Exit",
       "Fast",
       "Running",
+      "Stable",
       "V2Dir",
       "Valid"
     ],
@@ -38782,6 +38931,7 @@
       "Exit",
       "Fast",
       "Running",
+      "Stable",
       "Valid"
     ],
     "country": "us",
@@ -38964,24 +39114,6 @@
       "Valid"
     ],
     "country": "us",
-    "is_exit": true,
-    "is_guard": true
-  },
-  {
-    "fingerprint": "E3E5F85D2D2710D51EB1B2D47055956C58F3CCFE",
-    "nickname": "torexitams26a",
-    "address": "45.66.35.46:443",
-    "flags": [
-      "Exit",
-      "Fast",
-      "Guard",
-      "HSDir",
-      "Running",
-      "Stable",
-      "V2Dir",
-      "Valid"
-    ],
-    "country": "nl",
     "is_exit": true,
     "is_guard": true
   },
@@ -39508,7 +39640,6 @@
       "Exit",
       "Fast",
       "Guard",
-      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -39669,6 +39800,7 @@
     "address": "89.58.26.216:143",
     "flags": [
       "Exit",
+      "Fast",
       "Running",
       "V2Dir",
       "Valid"
@@ -40055,6 +40187,7 @@
       "Exit",
       "Fast",
       "Guard",
+      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -40557,24 +40690,6 @@
     "is_guard": true
   },
   {
-    "fingerprint": "ED2651B69E88D671CB6CC99B0E9F4F6227103086",
-    "nickname": "Quintex344",
-    "address": "204.8.96.67:446",
-    "flags": [
-      "Exit",
-      "Fast",
-      "Guard",
-      "HSDir",
-      "Running",
-      "Stable",
-      "V2Dir",
-      "Valid"
-    ],
-    "country": "us",
-    "is_exit": true,
-    "is_guard": true
-  },
-  {
     "fingerprint": "ED336E2E63EE2691358B3C0457EA671C6749E150",
     "nickname": "SSDNodesROexit",
     "address": "185.247.224.89:9001",
@@ -40744,7 +40859,6 @@
       "Exit",
       "Fast",
       "Guard",
-      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -41428,6 +41542,7 @@
       "Exit",
       "Fast",
       "Guard",
+      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -41537,6 +41652,20 @@
     "country": "at",
     "is_exit": true,
     "is_guard": true
+  },
+  {
+    "fingerprint": "F22FC479810294024CF90F669918CFF6E4208287",
+    "nickname": "HeyBroM",
+    "address": "209.141.46.203:9001",
+    "flags": [
+      "Exit",
+      "Running",
+      "V2Dir",
+      "Valid"
+    ],
+    "country": "us",
+    "is_exit": true,
+    "is_guard": false
   },
   {
     "fingerprint": "F25138D0C2FB7E87B22C4789599AE221B01EF973",
@@ -41849,7 +41978,6 @@
       "Exit",
       "Fast",
       "Guard",
-      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -41953,6 +42081,20 @@
     "is_guard": false
   },
   {
+    "fingerprint": "F49A88EFBA90167FB1C1FA529FB451A035CCDC4D",
+    "nickname": "Quetzalcoatl",
+    "address": "185.183.157.214:9100",
+    "flags": [
+      "Exit",
+      "Running",
+      "V2Dir",
+      "Valid"
+    ],
+    "country": "de",
+    "is_exit": true,
+    "is_guard": false
+  },
+  {
     "fingerprint": "F4D8ADF7CAD9E79AE2CEA0353D2BE92DBCBE06D0",
     "nickname": "Quintex115",
     "address": "204.8.96.105:444",
@@ -42024,6 +42166,7 @@
       "Exit",
       "Fast",
       "Running",
+      "Stable",
       "V2Dir",
       "Valid"
     ],
@@ -42575,7 +42718,6 @@
       "Exit",
       "Fast",
       "Guard",
-      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
@@ -42962,6 +43104,7 @@
     "address": "89.58.26.216:9100",
     "flags": [
       "Exit",
+      "Fast",
       "Running",
       "V2Dir",
       "Valid"
@@ -42992,6 +43135,7 @@
     "flags": [
       "Exit",
       "Fast",
+      "HSDir",
       "Running",
       "Stable",
       "V2Dir",
